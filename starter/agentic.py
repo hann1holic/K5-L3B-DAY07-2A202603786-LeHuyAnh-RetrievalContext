@@ -70,6 +70,14 @@ def run_agent(question: str, controller: Controller, retriever: Retriever, *,
             if valid:
                 return {'status': 'answered', 'answer': answer, 'citations': citations, 'events': events + [{'event': 'answer'}]}
             return {'status': 'abstain', 'answer': 'Không đủ bằng chứng để trả lời.', 'citations': [], 'events': events + [{'event': 'invalid_or_missing_citations'}]}
+        elif action.get('action') == 'abstain':
+            answer, citations = action.get('answer'), action.get('citations', [])
+            if not isinstance(answer, str) or not isinstance(citations, list) or any(not isinstance(i, str) for i in citations):
+                raise ValueError('abstention answer/citations không hợp lệ')
+            valid = bool(answer.strip() and all(i in chunks and f'[{i}]' in answer for i in citations))
+            if valid:
+                return {'status': 'abstain', 'answer': answer, 'citations': citations, 'events': events + [{'event': 'abstain'}]}
+            return {'status': 'abstain', 'answer': 'Không đủ bằng chứng để trả lời.', 'citations': [], 'events': events + [{'event': 'invalid_abstention_citations'}]}
         else:
             raise ValueError('action phải là search hoặc answer')
     return {'status': 'abstain', 'answer': 'Không đủ bằng chứng để trả lời.', 'citations': [], 'events': events}

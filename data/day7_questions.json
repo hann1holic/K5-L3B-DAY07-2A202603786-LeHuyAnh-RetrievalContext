@@ -1,0 +1,364 @@
+[
+  {
+    "id": "Q01",
+    "split": "dev",
+    "question": "What future choice does the opening paragraph pose for humanity?",
+    "answerable": true,
+    "gold": [
+      {
+        "source_id": "magnifica_humanitas",
+        "source": "Magnifica_Humanitas.pdf",
+        "page": 3,
+        "evidence": "a pivotal choice"
+      }
+    ],
+    "filter": {},
+    "expected_answer": "Evidence: a pivotal choice"
+  },
+  {
+    "id": "Q02",
+    "split": "dev",
+    "question": "What does the encyclical call the Babel syndrome in its warning about profit and difference?",
+    "answerable": true,
+    "gold": [
+      {
+        "source_id": "magnifica_humanitas",
+        "source": "Magnifica_Humanitas.pdf",
+        "page": 4,
+        "evidence": "idolatry of profit that sacrifices the weak"
+      }
+    ],
+    "filter": {},
+    "expected_answer": "Evidence: idolatry of profit that sacrifices the weak"
+  },
+  {
+    "id": "Q03",
+    "split": "dev",
+    "question": "Within the Social Doctrine section, what should states and transnational institutions provide so communities can have a voice?",
+    "answerable": true,
+    "gold": [
+      {
+        "source_id": "magnifica_humanitas",
+        "source": "Magnifica_Humanitas.pdf",
+        "page": 15,
+        "evidence": "fair rules and effective safeguards"
+      }
+    ],
+    "filter": {
+      "section": "THE SOCIAL DOCTRINE OF THE CHURCH"
+    },
+    "expected_answer": "Evidence: fair rules and effective safeguards"
+  },
+  {
+    "id": "Q04",
+    "split": "dev",
+    "question": "Within the Social Doctrine section, how is each person's fundamental dignity described with respect to acquisition or justification?",
+    "answerable": true,
+    "gold": [
+      {
+        "source_id": "magnifica_humanitas",
+        "source": "Magnifica_Humanitas.pdf",
+        "page": 12,
+        "evidence": "neither acquired nor earned"
+      }
+    ],
+    "filter": {
+      "section": "THE SOCIAL DOCTRINE OF THE CHURCH"
+    },
+    "expected_answer": "Evidence: neither acquired nor earned"
+  },
+  {
+    "id": "Q05",
+    "split": "dev",
+    "question": "Within the Social Doctrine section, what two kinds of thing is solidarity described as?",
+    "answerable": true,
+    "gold": [
+      {
+        "source_id": "magnifica_humanitas",
+        "source": "Magnifica_Humanitas.pdf",
+        "page": 15,
+        "evidence": "both a principle and a virtue"
+      }
+    ],
+    "filter": {
+      "section": "THE SOCIAL DOCTRINE OF THE CHURCH"
+    },
+    "expected_answer": "Evidence: both a principle and a virtue"
+  },
+  {
+    "id": "Q06",
+    "split": "dev",
+    "question": "What historical significance does the document assign to Leo XIII's Rerum Novarum?",
+    "answerable": true,
+    "gold": [
+      {
+        "source_id": "magnifica_humanitas",
+        "source": "Magnifica_Humanitas.pdf",
+        "page": 8,
+        "evidence": "constitutes a milestone in the development"
+      }
+    ],
+    "filter": {},
+    "expected_answer": "Evidence: constitutes a milestone in the development"
+  },
+  {
+    "id": "Q07",
+    "split": "dev",
+    "question": "What framework does the text use to interpret current changes, including those from the digital revolution?",
+    "answerable": true,
+    "gold": [
+      {
+        "source_id": "magnifica_humanitas",
+        "source": "Magnifica_Humanitas.pdf",
+        "page": 17,
+        "evidence": "integral human development"
+      }
+    ],
+    "filter": {},
+    "expected_answer": "Evidence: integral human development"
+  },
+  {
+    "id": "Q08",
+    "split": "dev",
+    "question": "Why does the text say decisions involving AI are more than a technical matter?",
+    "answerable": true,
+    "gold": [
+      {
+        "source_id": "magnifica_humanitas",
+        "source": "Magnifica_Humanitas.pdf",
+        "page": 19,
+        "evidence": "never a purely technical matter"
+      }
+    ],
+    "filter": {},
+    "expected_answer": "Evidence: never a purely technical matter"
+  },
+  {
+    "id": "Q09",
+    "split": "dev",
+    "question": "What is surrendered when an algorithm is trusted to decide who is worthy without anyone taking responsibility?",
+    "answerable": true,
+    "gold": [
+      {
+        "source_id": "magnifica_humanitas",
+        "source": "Magnifica_Humanitas.pdf",
+        "page": 19,
+        "evidence": "select who is worthy or not"
+      }
+    ],
+    "filter": {},
+    "expected_answer": "Evidence: select who is worthy or not"
+  },
+  {
+    "id": "Q10",
+    "split": "dev",
+    "question": "Which human qualities can find a place precisely within human limitations?",
+    "answerable": true,
+    "gold": [
+      {
+        "source_id": "magnifica_humanitas",
+        "source": "Magnifica_Humanitas.pdf",
+        "page": 22,
+        "evidence": "compassion, as well as a sincere concern"
+      }
+    ],
+    "filter": {},
+    "expected_answer": "Evidence: compassion, as well as a sincere concern"
+  },
+  {
+    "id": "Q11",
+    "split": "dev",
+    "question": "On what basis does the text say human rights are inviolable?",
+    "answerable": true,
+    "gold": [
+      {
+        "source_id": "magnifica_humanitas",
+        "source": "Magnifica_Humanitas.pdf",
+        "page": 12,
+        "evidence": "inherent in the human person and in human dignity"
+      }
+    ],
+    "filter": {},
+    "expected_answer": "Evidence: inherent in the human person and in human dignity"
+  },
+  {
+    "id": "Q12",
+    "split": "dev",
+    "question": "What does the text say schools enable new generations to learn to do?",
+    "answerable": true,
+    "gold": [
+      {
+        "source_id": "magnifica_humanitas",
+        "source": "Magnifica_Humanitas.pdf",
+        "page": 25,
+        "evidence": "learn to seek and love the truth"
+      }
+    ],
+    "filter": {},
+    "expected_answer": "Evidence: learn to seek and love the truth"
+  },
+  {
+    "id": "Q13",
+    "split": "dev",
+    "question": "What can early, unsupervised exposure to digital devices and social media negatively affect?",
+    "answerable": true,
+    "gold": [
+      {
+        "source_id": "magnifica_humanitas",
+        "source": "Magnifica_Humanitas.pdf",
+        "page": 25,
+        "evidence": "negatively impact sleep, attention span, control of emotions and relationships"
+      }
+    ],
+    "filter": {},
+    "expected_answer": "Evidence: negatively impact sleep, attention span, control of emotions and relationships"
+  },
+  {
+    "id": "Q14",
+    "split": "dev",
+    "question": "Beyond providing income, what roles does work play in human experience?",
+    "answerable": true,
+    "gold": [
+      {
+        "source_id": "magnifica_humanitas",
+        "source": "Magnifica_Humanitas.pdf",
+        "page": 27,
+        "evidence": "expression, relationships and contributing to the community"
+      }
+    ],
+    "filter": {},
+    "expected_answer": "Evidence: expression, relationships and contributing to the community"
+  },
+  {
+    "id": "Q15",
+    "split": "dev",
+    "question": "When jobs are changing through automation, what does the document say society should do in advance?",
+    "answerable": true,
+    "gold": [
+      {
+        "source_id": "magnifica_humanitas",
+        "source": "Magnifica_Humanitas.pdf",
+        "page": 27,
+        "evidence": "oversee the transformation in advance"
+      }
+    ],
+    "filter": {},
+    "expected_answer": "Evidence: oversee the transformation in advance"
+  },
+  {
+    "id": "Q16",
+    "split": "test",
+    "question": "Why does the text say job insecurity is especially devastating for young people?",
+    "answerable": true,
+    "gold": [
+      {
+        "source_id": "magnifica_humanitas",
+        "source": "Magnifica_Humanitas.pdf",
+        "page": 29,
+        "evidence": "a crucial sphere in which identity is formed"
+      }
+    ],
+    "filter": {},
+    "expected_answer": "a crucial sphere in which identity is formed"
+  },
+  {
+    "id": "Q17",
+    "split": "test",
+    "question": "What control over personal data does the document say should be restored to individuals?",
+    "answerable": true,
+    "gold": [
+      {
+        "source_id": "magnifica_humanitas",
+        "source": "Magnifica_Humanitas.pdf",
+        "page": 31,
+        "evidence": "the ability to decide how it is used, by whom and for whose\nbenefit"
+      }
+    ],
+    "filter": {},
+    "expected_answer": "the ability to decide how it is used, by whom and for whose\nbenefit"
+  },
+  {
+    "id": "Q18",
+    "split": "test",
+    "question": "When did the Treaty on the Prohibition of Nuclear Weapons come into force, and how many countries supported it?",
+    "answerable": true,
+    "gold": [
+      {
+        "source_id": "magnifica_humanitas",
+        "source": "Magnifica_Humanitas.pdf",
+        "page": 33,
+        "evidence": "came into force in 2021\nwith the support of over seventy countries"
+      }
+    ],
+    "filter": {},
+    "expected_answer": "came into force in 2021\nwith the support of over seventy countries"
+  },
+  {
+    "id": "Q19",
+    "split": "test",
+    "question": "What should an international framework do about the technological arms race and civilian protection?",
+    "answerable": true,
+    "gold": [
+      {
+        "source_id": "magnifica_humanitas",
+        "source": "Magnifica_Humanitas.pdf",
+        "page": 34,
+        "evidence": "curb the technological arms race and ensure robust protection for civilians"
+      }
+    ],
+    "filter": {},
+    "expected_answer": "curb the technological arms race and ensure robust protection for civilians"
+  },
+  {
+    "id": "Q20",
+    "split": "test",
+    "question": "How does the document say tax systems should distribute the burden of social justice?",
+    "answerable": true,
+    "gold": [
+      {
+        "source_id": "magnifica_humanitas",
+        "source": "Magnifica_Humanitas.pdf",
+        "page": 28,
+        "evidence": "tax systems that lighten\nthe burden on the weakest and ask for more from those with greater resources"
+      }
+    ],
+    "filter": {},
+    "expected_answer": "tax systems that lighten\nthe burden on the weakest and ask for more from those with greater resources"
+  },
+  {
+    "id": "U01",
+    "split": "dev",
+    "question": "What ISBN does the encyclical give for its printed edition?",
+    "absence_reason": "The complete indexed corpus contains no ISBN or print-edition identifier.",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "audit_required": false
+  },
+  {
+    "id": "U02",
+    "split": "dev",
+    "question": "What minimum age does the encyclical prescribe for opening a social media account?",
+    "absence_reason": "The source calls for legislators to set age limits but does not specify a numeric minimum age.",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "audit_required": false
+  },
+  {
+    "id": "U03",
+    "split": "test",
+    "question": "How many euros of public funding does the encyclical prescribe for AI research?",
+    "absence_reason": "The complete indexed corpus gives no euro-denominated public funding amount for AI research.",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "audit_required": false
+  },
+  {
+    "id": "U04",
+    "split": "test",
+    "question": "Which commercial AI product does the encyclical recommend schools use as their preferred teaching assistant?",
+    "absence_reason": "The education and AI passages do not endorse a named commercial teaching product.",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "audit_required": false
+  }
+]

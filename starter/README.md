@@ -6,10 +6,48 @@
 | `baseline.py` | TF-IDF lexical baseline, chạy offline |
 | `convert_day6.py` | Chuyển một số trường JSON từ Day 6 |
 | `agent_metrics.py` | Tổng hợp nhãn đánh giá do bạn tự chấm |
+| `day6_adapter.py` | Đọc trực tiếp index Chroma B và cấu hình embedding Day 6 |
+| `retrievers.py` | Dense Day 6, TF-IDF lexical và hybrid RRF |
+| `model_controller.py` | Model thật qua OpenAI-compatible tool calling |
+| `compare_retrieval.py` | So sánh ba phương pháp trên cùng split |
+| `run_agent_benchmark.py` | Chạy agent thật và lưu trace/metadata |
+| `prepare_day7_benchmark.py` | Tạo benchmark Day 7 từ Day 6 và câu hỏi mới |
 
-Starter **chưa phải solution hoàn chỉnh**. Bạn phải nối model và vector store thật, triển khai ít nhất 3 phương pháp retrieval do bạn chọn, gồm dense trên vector store Day 6. Mock chỉ dùng để test code.
+Starter hiện nối trực tiếp index Chroma Day 6 trên máy này. Ba phương pháp là dense retrieval trên collection B, TF-IDF lexical, và hybrid reciprocal-rank fusion (RRF). Model agent phải hỗ trợ OpenAI-compatible Chat Completions và tool calling. Mock chỉ dùng để kiểm tra code, không dùng để báo benchmark chất lượng.
 
-## 1. Kết nối agent
+## 1. Dữ liệu Day 6 đã nối
+
+Mặc định adapter đọc `D:\VinUni\K5-L3B-DAY06-LeHuyAnh-2A202603786-DataIngestion\starter\results\chroma`, collection `day6_strategy_b`, không sao chép index hay tạo lại embeddings. Nó đọc khóa/model từ `.env` Day 6 khi cần gọi embedding hoặc chat API; giá trị secret không được ghi ra log. Nếu thư mục khác, đặt `DAY6_ROOT`; có thể đổi collection bằng `DAY6_COLLECTION` và đường dẫn index bằng `DAY6_CHROMA_PATH`.
+
+Sinh bộ câu hỏi:
+
+```powershell
+python starter/prepare_day7_benchmark.py
+```
+
+Benchmark giữ 15 câu dev có đáp án từ Day 6, viết 5 câu test mới trên trang 28–34 để thay bộ test Day 6 đã được xem, và thêm 4 câu thiếu evidence. Các lý do thiếu evidence của U01–U04 đã được đối chiếu với toàn bộ corpus đã index. Lỗi retrieval đơn lẻ không được dùng làm bằng chứng cho nhãn thiếu.
+
+## 2. So sánh retrieval
+
+Chạy từ repo Day 7; mỗi retrieval embedding query có thể phát sinh API cost:
+
+```powershell
+python starter/compare_retrieval.py --split dev --top-k 10 --budget 2400 --output starter/results/dev-k10-b2400
+```
+
+Script lưu `traces.json` và `summary.json` cho cả ba chiến lược. Chỉ tính câu có đáp án vào Hit@1, Evidence Hit@3 và Context Evidence. Thử nghiệm cải thiện có thể đổi `--top-k` hoặc `--budget`, hoặc chọn hybrid; lưu mỗi cấu hình vào thư mục riêng. Chọn bằng dev trước khi chạy test.
+
+## 3. Chạy agent thật
+
+Chat completion và query embedding dùng cùng khóa/provider ở Day 6 `.env`, hoặc cấu hình `.env` riêng trong `starter/`. `CHAT_MODEL` được dùng mặc định; có thể đặt `DAY7_CHAT_MODEL` và `DAY7_CHAT_BASE_URL` để override. Ví dụ chạy dev:
+
+```powershell
+python starter/run_agent_benchmark.py --split dev --strategy dense --top-k 3 --max-searches 3 --budget 2400 --output starter/results/agent-dev-dense
+```
+
+Chạy lexical hoặc hybrid bằng `--strategy lexical` hoặc `--strategy hybrid`. Output gồm case labels tách khỏi prompt, trace từng câu và metadata số lượt gọi/token model. Mỗi câu gọi model thật và có thể bị tính phí; script không tự gửi request khi chỉ sinh benchmark hay chỉ đọc cấu hình. Chấm citation và grounded answer thủ công, sau đó dùng `agent_metrics.py` để tổng hợp. Chỉ chạy test sau khi chốt cấu hình trên dev.
+
+## 4. Kết nối agent
 
 Trong `agentic.py`, hiện thực:
 
@@ -18,7 +56,7 @@ Trong `agentic.py`, hiện thực:
 
 Tự viết chương trình nối hai phần với `run_agent`, hoặc thay thế bằng kiến trúc nhiều tool. Tham số `max_searches`, `top_k` và `budget` chỉ là mặc định của ví dụ, không phải giới hạn của đề. Xem `tests/test_agentic.py` để hiểu cách gọi; kết nối trong test là mock. Khung code kiểm tra citation ID có trong context, nhưng bạn phải tự đọc xem nguồn có hỗ trợ câu trả lời. Báo lỗi kết nối, không thay bằng kết quả giả.
 
-## 2. Chạy TF-IDF baseline
+## 5. Chạy TF-IDF baseline
 
 Chạy từ thư mục gốc với Python 3.11 trở lên:
 
@@ -29,7 +67,7 @@ python3 starter/baseline.py --chunks data/example_chunks.json --questions data/e
 
 Kết quả có `summary.json` và `traces.json`. Dữ liệu mẫu chỉ có một câu, không đủ để nộp bài. TF-IDF là lexical retrieval, không dùng filter và không thay dense retrieval.
 
-## 3. Dùng dữ liệu Day 6
+## 6. Dùng dữ liệu khác / xuất JSON
 
 Xuất chunk và câu hỏi thành hai JSON array. Starter Day 6 không quy định tên bảng hay cách xuất; bạn cần tự thực hiện. Nếu chunk có `chunk_id`, `document_id`, `source`, `page`, `text`, `metadata` và câu hỏi có `gold_source_id`, `gold_page`, `evidence_quote`, chạy:
 
@@ -42,7 +80,7 @@ Thay phần trong `< >` bằng đường dẫn thật. Script chỉ đổi tên 
 
 `--split dev` chỉ chấm dev. Sau khi chốt cấu hình, dùng `--split test` và chọn thư mục kết quả khác. Nếu test Day 6 từng dùng để chỉnh hệ thống, tạo test mới theo [GUIDE.md](../GUIDE.md). Baseline mẫu dùng evidence nằm trong một chunk và context từ top-3; cần mở rộng hoặc tự đánh giá nếu dùng multi-hop, context từ nhiều lượt hay schema khác. Khớp nguyên văn bằng code không thay thế đánh giá thủ công.
 
-## 4. Tổng hợp đánh giá agent
+## 7. Tổng hợp đánh giá agent
 
 Sau khi chạy agent thật và tự chấm, chuẩn bị ba JSON array:
 
