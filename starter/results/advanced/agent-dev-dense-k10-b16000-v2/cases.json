@@ -1,0 +1,110 @@
+[
+  {
+    "id": "D-T01",
+    "split": "dev",
+    "answerable": true,
+    "main_category": "table"
+  },
+  {
+    "id": "D-T02",
+    "split": "dev",
+    "answerable": true,
+    "main_category": "table"
+  },
+  {
+    "id": "D-T03",
+    "split": "dev",
+    "answerable": true,
+    "main_category": "table"
+  },
+  {
+    "id": "D-I01",
+    "split": "dev",
+    "answerable": true,
+    "main_category": "image_diagram"
+  },
+  {
+    "id": "D-I02",
+    "split": "dev",
+    "answerable": true,
+    "main_category": "image_diagram"
+  },
+  {
+    "id": "D-I03",
+    "split": "dev",
+    "answerable": true,
+    "main_category": "image_diagram"
+  },
+  {
+    "id": "D-C01",
+    "split": "dev",
+    "answerable": true,
+    "main_category": "chart"
+  },
+  {
+    "id": "D-C02",
+    "split": "dev",
+    "answerable": true,
+    "main_category": "chart"
+  },
+  {
+    "id": "D-C03",
+    "split": "dev",
+    "answerable": true,
+    "main_category": "chart"
+  },
+  {
+    "id": "D-M01",
+    "split": "dev",
+    "answerable": true,
+    "main_category": "multi_hop"
+  },
+  {
+    "id": "D-M02",
+    "split": "dev",
+    "answerable": true,
+    "main_category": "multi_hop"
+  },
+  {
+    "id": "D-M03",
+    "split": "dev",
+    "answerable": true,
+    "main_category": "multi_hop"
+  },
+  {
+    "id": "D-X01",
+    "split": "dev",
+    "answerable": true,
+    "main_category": "text"
+  },
+  {
+    "id": "D-X02",
+    "split": "dev",
+    "answerable": true,
+    "main_category": "text"
+  },
+  {
+    "id": "D-X03",
+    "split": "dev",
+    "answerable": true,
+    "main_category": "text"
+  },
+  {
+    "id": "D-A01",
+    "split": "dev",
+    "answerable": false,
+    "main_category": "abstention"
+  },
+  {
+    "id": "D-A02",
+    "split": "dev",
+    "answerable": false,
+    "main_category": "abstention"
+  },
+  {
+    "id": "D-A03",
+    "split": "dev",
+    "answerable": false,
+    "main_category": "abstention"
+  }
+]

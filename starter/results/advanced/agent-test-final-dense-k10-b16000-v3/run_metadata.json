@@ -1,0 +1,15 @@
+{
+  "split": "test",
+  "strategy": "dense_report",
+  "top_k": 10,
+  "context_budget_chars": 16000,
+  "model": "gpt-6-luna",
+  "model_calls": 62,
+  "prompt_tokens_reported": 122731,
+  "completion_tokens_reported": 3214,
+  "provider_reported_cost_usd": null,
+  "provider_cost_reporting_calls": 0,
+  "query_embedding_requests": 32,
+  "query_embedding_tokens": 442,
+  "errors": 0
+}

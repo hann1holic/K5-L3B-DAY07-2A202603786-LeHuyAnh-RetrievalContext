@@ -1,0 +1,182 @@
+[
+  {
+    "id": "T-T01",
+    "split": "test",
+    "answerable": true,
+    "main_category": "table"
+  },
+  {
+    "id": "T-T02",
+    "split": "test",
+    "answerable": true,
+    "main_category": "table"
+  },
+  {
+    "id": "T-T03",
+    "split": "test",
+    "answerable": true,
+    "main_category": "table"
+  },
+  {
+    "id": "T-T04",
+    "split": "test",
+    "answerable": true,
+    "main_category": "table"
+  },
+  {
+    "id": "T-T05",
+    "split": "test",
+    "answerable": true,
+    "main_category": "table"
+  },
+  {
+    "id": "T-T06",
+    "split": "test",
+    "answerable": true,
+    "main_category": "table"
+  },
+  {
+    "id": "T-I01",
+    "split": "test",
+    "answerable": true,
+    "main_category": "image_diagram"
+  },
+  {
+    "id": "T-I02",
+    "split": "test",
+    "answerable": true,
+    "main_category": "image_diagram"
+  },
+  {
+    "id": "T-I03",
+    "split": "test",
+    "answerable": true,
+    "main_category": "image_diagram"
+  },
+  {
+    "id": "T-I04",
+    "split": "test",
+    "answerable": true,
+    "main_category": "image_diagram"
+  },
+  {
+    "id": "T-I05",
+    "split": "test",
+    "answerable": true,
+    "main_category": "image_diagram"
+  },
+  {
+    "id": "T-C01",
+    "split": "test",
+    "answerable": true,
+    "main_category": "chart"
+  },
+  {
+    "id": "T-C02",
+    "split": "test",
+    "answerable": true,
+    "main_category": "chart"
+  },
+  {
+    "id": "T-C03",
+    "split": "test",
+    "answerable": true,
+    "main_category": "chart"
+  },
+  {
+    "id": "T-C04",
+    "split": "test",
+    "answerable": true,
+    "main_category": "chart"
+  },
+  {
+    "id": "T-C05",
+    "split": "test",
+    "answerable": true,
+    "main_category": "chart"
+  },
+  {
+    "id": "T-M01",
+    "split": "test",
+    "answerable": true,
+    "main_category": "multi_hop"
+  },
+  {
+    "id": "T-M02",
+    "split": "test",
+    "answerable": true,
+    "main_category": "multi_hop"
+  },
+  {
+    "id": "T-M03",
+    "split": "test",
+    "answerable": true,
+    "main_category": "multi_hop"
+  },
+  {
+    "id": "T-M04",
+    "split": "test",
+    "answerable": true,
+    "main_category": "multi_hop"
+  },
+  {
+    "id": "T-X01",
+    "split": "test",
+    "answerable": true,
+    "main_category": "text"
+  },
+  {
+    "id": "T-X02",
+    "split": "test",
+    "answerable": true,
+    "main_category": "text"
+  },
+  {
+    "id": "T-X03",
+    "split": "test",
+    "answerable": true,
+    "main_category": "text"
+  },
+  {
+    "id": "T-X04",
+    "split": "test",
+    "answerable": true,
+    "main_category": "text"
+  },
+  {
+    "id": "T-A01",
+    "split": "test",
+    "answerable": false,
+    "main_category": "abstention"
+  },
+  {
+    "id": "T-A02",
+    "split": "test",
+    "answerable": false,
+    "main_category": "abstention"
+  },
+  {
+    "id": "T-A03",
+    "split": "test",
+    "answerable": false,
+    "main_category": "abstention"
+  },
+  {
+    "id": "T-A04",
+    "split": "test",
+    "answerable": false,
+    "main_category": "abstention"
+  },
+  {
+    "id": "T-A05",
+    "split": "test",
+    "answerable": false,
+    "main_category": "abstention"
+  },
+  {
+    "id": "T-A06",
+    "split": "test",
+    "answerable": false,
+    "main_category": "abstention"
+  }
+]

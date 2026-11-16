@@ -1,0 +1,132 @@
+{
+  "method": "Full extracted text/index scan across all 324 physical PDF pages; image-only blank/divider pages were visually reviewed separately. Phrase checks test the requested combination, not absence of any individual word.",
+  "source_pages": 324,
+  "searchable_chunks": 1354,
+  "absence_cases": [
+    {
+      "query_id": "T-A01",
+      "terms_checked": [
+        "Vietnam",
+        "GDP/growth",
+        "2025"
+      ],
+      "phrase_checks": [
+        {
+          "pattern": "Vietnam.*(?:GDP|growth).*2025",
+          "matching_chunks": 0,
+          "examples": []
+        },
+        {
+          "pattern": "2025.*Vietnam.*(?:GDP|growth)",
+          "matching_chunks": 0,
+          "examples": []
+        }
+      ],
+      "label": "No matching claim in extracted, searchable source text; abstention expected."
+    },
+    {
+      "query_id": "T-A02",
+      "terms_checked": [
+        "Amazon",
+        "2024",
+        "deforestation/area"
+      ],
+      "phrase_checks": [
+        {
+          "pattern": "Amazon.*2024.*(?:deforest|km.?2|square kilomet)",
+          "matching_chunks": 0,
+          "examples": []
+        },
+        {
+          "pattern": "2024.*Amazon.*(?:deforest|km.?2|square kilomet)",
+          "matching_chunks": 0,
+          "examples": []
+        }
+      ],
+      "label": "No matching claim in extracted, searchable source text; abstention expected."
+    },
+    {
+      "query_id": "T-A03",
+      "terms_checked": [
+        "Indonesia",
+        "2024",
+        "presidential election turnout"
+      ],
+      "phrase_checks": [
+        {
+          "pattern": "Indonesia.*2024.*presidential.*(?:turnout|vote)",
+          "matching_chunks": 0,
+          "examples": []
+        },
+        {
+          "pattern": "2024.*Indonesia.*presidential.*(?:turnout|vote)",
+          "matching_chunks": 0,
+          "examples": []
+        }
+      ],
+      "label": "No matching claim in extracted, searchable source text; abstention expected."
+    },
+    {
+      "query_id": "T-A04",
+      "terms_checked": [
+        "Ho Chi Minh City",
+        "2024",
+        "population"
+      ],
+      "phrase_checks": [
+        {
+          "pattern": "Ho Chi Minh City.*2024.*population",
+          "matching_chunks": 0,
+          "examples": []
+        },
+        {
+          "pattern": "2024.*Ho Chi Minh City.*population",
+          "matching_chunks": 0,
+          "examples": []
+        }
+      ],
+      "label": "No matching claim in extracted, searchable source text; abstention expected."
+    },
+    {
+      "query_id": "T-A05",
+      "terms_checked": [
+        "Argentina",
+        "2024",
+        "inflation"
+      ],
+      "phrase_checks": [
+        {
+          "pattern": "Argentina.*2024.*inflation",
+          "matching_chunks": 0,
+          "examples": []
+        },
+        {
+          "pattern": "2024.*Argentina.*inflation",
+          "matching_chunks": 0,
+          "examples": []
+        }
+      ],
+      "label": "No matching claim in extracted, searchable source text; abstention expected."
+    },
+    {
+      "query_id": "T-A06",
+      "terms_checked": [
+        "2025",
+        "country-level real GDP growth ranking"
+      ],
+      "phrase_checks": [
+        {
+          "pattern": "2025.*real GDP growth",
+          "matching_chunks": 0,
+          "examples": []
+        },
+        {
+          "pattern": "real GDP growth.*2025",
+          "matching_chunks": 0,
+          "examples": []
+        }
+      ],
+      "label": "No matching claim in extracted, searchable source text; abstention expected."
+    }
+  ]
+}

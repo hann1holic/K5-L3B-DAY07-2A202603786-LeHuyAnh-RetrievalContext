@@ -1,0 +1,1769 @@
+{
+  "pages": [
+    {
+      "page": 1,
+      "chars": 61,
+      "text_present": true
+    },
+    {
+      "page": 2,
+      "chars": 2991,
+      "text_present": true
+    },
+    {
+      "page": 3,
+      "chars": 101,
+      "text_present": true
+    },
+    {
+      "page": 4,
+      "chars": 0,
+      "text_present": false
+    },
+    {
+      "page": 5,
+      "chars": 680,
+      "text_present": true
+    },
+    {
+      "page": 6,
+      "chars": 1812,
+      "text_present": true
+    },
+    {
+      "page": 7,
+      "chars": 4797,
+      "text_present": true
+    },
+    {
+      "page": 8,
+      "chars": 934,
+      "text_present": true
+    },
+    {
+      "page": 9,
+      "chars": 5295,
+      "text_present": true
+    },
+    {
+      "page": 10,
+      "chars": 6402,
+      "text_present": true
+    },
+    {
+      "page": 11,
+      "chars": 1481,
+      "text_present": true
+    },
+    {
+      "page": 12,
+      "chars": 3363,
+      "text_present": true
+    },
+    {
+      "page": 13,
+      "chars": 6136,
+      "text_present": true
+    },
+    {
+      "page": 14,
+      "chars": 2979,
+      "text_present": true
+    },
+    {
+      "page": 15,
+      "chars": 76,
+      "text_present": true
+    },
+    {
+      "page": 16,
+      "chars": 111,
+      "text_present": true
+    },
+    {
+      "page": 17,
+      "chars": 4635,
+      "text_present": true
+    },
+    {
+      "page": 18,
+      "chars": 3080,
+      "text_present": true,
+      "visual_crop": "pages/page-018.png"
+    },
+    {
+      "page": 19,
+      "chars": 3306,
+      "text_present": true,
+      "visual_crop": "pages/page-019.png"
+    },
+    {
+      "page": 20,
+      "chars": 2302,
+      "text_present": true,
+      "visual_crop": "pages/page-020.png"
+    },
+    {
+      "page": 21,
+      "chars": 2824,
+      "text_present": true,
+      "visual_crop": "pages/page-021.png"
+    },
+    {
+      "page": 22,
+      "chars": 3357,
+      "text_present": true,
+      "visual_crop": "pages/page-022.png"
+    },
+    {
+      "page": 23,
+      "chars": 1469,
+      "text_present": true,
+      "visual_crop": "pages/page-023.png"
+    },
+    {
+      "page": 24,
+      "chars": 0,
+      "text_present": false
+    },
+    {
+      "page": 25,
+      "chars": 57,
+      "text_present": true
+    },
+    {
+      "page": 26,
+      "chars": 92,
+      "text_present": true
+    },
+    {
+      "page": 27,
+      "chars": 3250,
+      "text_present": true,
+      "visual_crop": "pages/page-027.png"
+    },
+    {
+      "page": 28,
+      "chars": 2827,
+      "text_present": true,
+      "visual_crop": "pages/page-028.png"
+    },
+    {
+      "page": 29,
+      "chars": 2785,
+      "text_present": true,
+      "visual_crop": "pages/page-029.png"
+    },
+    {
+      "page": 30,
+      "chars": 4111,
+      "text_present": true,
+      "visual_crop": "pages/page-030.png"
+    },
+    {
+      "page": 31,
+      "chars": 4728,
+      "text_present": true
+    },
+    {
+      "page": 32,
+      "chars": 4928,
+      "text_present": true
+    },
+    {
+      "page": 33,
+      "chars": 4188,
+      "text_present": true,
+      "visual_crop": "pages/page-033.png"
+    },
+    {
+      "page": 34,
+      "chars": 4671,
+      "text_present": true
+    },
+    {
+      "page": 35,
+      "chars": 1527,
+      "text_present": true,
+      "visual_crop": "pages/page-035.png"
+    },
+    {
+      "page": 36,
+      "chars": 2924,
+      "text_present": true,
+      "visual_crop": "pages/page-036.png"
+    },
+    {
+      "page": 37,
+      "chars": 2457,
+      "text_present": true,
+      "visual_crop": "pages/page-037.png"
+    },
+    {
+      "page": 38,
+      "chars": 4009,
+      "text_present": true
+    },
+    {
+      "page": 39,
+      "chars": 64,
+      "text_present": true
+    },
+    {
+      "page": 40,
+      "chars": 0,
+      "text_present": false
+    },
+    {
+      "page": 41,
+      "chars": 137,
+      "text_present": true
+    },
+    {
+      "page": 42,
+      "chars": 598,
+      "text_present": true
+    },
+    {
+      "page": 43,
+      "chars": 4661,
+      "text_present": true
+    },
+    {
+      "page": 44,
+      "chars": 3399,
+      "text_present": true,
+      "visual_crop": "pages/page-044.png"
+    },
+    {
+      "page": 45,
+      "chars": 2983,
+      "text_present": true,
+      "visual_crop": "pages/page-045.png"
+    },
+    {
+      "page": 46,
+      "chars": 3220,
+      "text_present": true,
+      "visual_crop": "pages/page-046.png"
+    },
+    {
+      "page": 47,
+      "chars": 1469,
+      "text_present": true,
+      "visual_crop": "pages/page-047.png"
+    },
+    {
+      "page": 48,
+      "chars": 3883,
+      "text_present": true,
+      "visual_crop": "pages/page-048.png"
+    },
+    {
+      "page": 49,
+      "chars": 4782,
+      "text_present": true
+    },
+    {
+      "page": 50,
+      "chars": 2774,
+      "text_present": true,
+      "visual_crop": "pages/page-050.png"
+    },
+    {
+      "page": 51,
+      "chars": 3203,
+      "text_present": true,
+      "visual_crop": "pages/page-051.png"
+    },
+    {
+      "page": 52,
+      "chars": 3368,
+      "text_present": true,
+      "visual_crop": "pages/page-052.png"
+    },
+    {
+      "page": 53,
+      "chars": 2789,
+      "text_present": true,
+      "visual_crop": "pages/page-053.png"
+    },
+    {
+      "page": 54,
+      "chars": 892,
+      "text_present": true,
+      "visual_crop": "pages/page-054.png"
+    },
+    {
+      "page": 55,
+      "chars": 4771,
+      "text_present": true
+    },
+    {
+      "page": 56,
+      "chars": 2614,
+      "text_present": true,
+      "visual_crop": "pages/page-056.png"
+    },
+    {
+      "page": 57,
+      "chars": 962,
+      "text_present": true
+    },
+    {
+      "page": 58,
+      "chars": 0,
+      "text_present": false
+    },
+    {
+      "page": 59,
+      "chars": 130,
+      "text_present": true
+    },
+    {
+      "page": 60,
+      "chars": 758,
+      "text_present": true
+    },
+    {
+      "page": 61,
+      "chars": 4749,
+      "text_present": true
+    },
+    {
+      "page": 62,
+      "chars": 2993,
+      "text_present": true
+    },
+    {
+      "page": 63,
+      "chars": 5244,
+      "text_present": true
+    },
+    {
+      "page": 64,
+      "chars": 2649,
+      "text_present": true,
+      "visual_crop": "pages/page-064.png"
+    },
+    {
+      "page": 65,
+      "chars": 4642,
+      "text_present": true
+    },
+    {
+      "page": 66,
+      "chars": 3875,
+      "text_present": true,
+      "visual_crop": "pages/page-066.png"
+    },
+    {
+      "page": 67,
+      "chars": 3371,
+      "text_present": true,
+      "visual_crop": "pages/page-067.png"
+    },
+    {
+      "page": 68,
+      "chars": 770,
+      "text_present": true,
+      "visual_crop": "pages/page-068.png"
+    },
+    {
+      "page": 69,
+      "chars": 3583,
+      "text_present": true,
+      "visual_crop": "pages/page-069.png"
+    },
+    {
+      "page": 70,
+      "chars": 2513,
+      "text_present": true,
+      "visual_crop": "pages/page-070.png"
+    },
+    {
+      "page": 71,
+      "chars": 3959,
+      "text_present": true,
+      "visual_crop": "pages/page-071.png"
+    },
+    {
+      "page": 72,
+      "chars": 3421,
+      "text_present": true,
+      "visual_crop": "pages/page-072.png"
+    },
+    {
+      "page": 73,
+      "chars": 4820,
+      "text_present": true
+    },
+    {
+      "page": 74,
+      "chars": 4387,
+      "text_present": true
+    },
+    {
+      "page": 75,
+      "chars": 3460,
+      "text_present": true,
+      "visual_crop": "pages/page-075.png"
+    },
+    {
+      "page": 76,
+      "chars": 1274,
+      "text_present": true
+    },
+    {
+      "page": 77,
+      "chars": 4072,
+      "text_present": true
+    },
+    {
+      "page": 78,
+      "chars": 4888,
+      "text_present": true
+    },
+    {
+      "page": 79,
+      "chars": 4722,
+      "text_present": true
+    },
+    {
+      "page": 80,
+      "chars": 3980,
+      "text_present": true
+    },
+    {
+      "page": 81,
+      "chars": 4181,
+      "text_present": true
+    },
+    {
+      "page": 82,
+      "chars": 5228,
+      "text_present": true
+    },
+    {
+      "page": 83,
+      "chars": 5014,
+      "text_present": true
+    },
+    {
+      "page": 84,
+      "chars": 0,
+      "text_present": false
+    },
+    {
+      "page": 85,
+      "chars": 132,
+      "text_present": true
+    },
+    {
+      "page": 86,
+      "chars": 811,
+      "text_present": true
+    },
+    {
+      "page": 87,
+      "chars": 4697,
+      "text_present": true
+    },
+    {
+      "page": 88,
+      "chars": 4309,
+      "text_present": true
+    },
+    {
+      "page": 89,
+      "chars": 5423,
+      "text_present": true
+    },
+    {
+      "page": 90,
+      "chars": 4609,
+      "text_present": true
+    },
+    {
+      "page": 91,
+      "chars": 4752,
+      "text_present": true,
+      "visual_crop": "pages/page-091.png"
+    },
+    {
+      "page": 92,
+      "chars": 4589,
+      "text_present": true
+    },
+    {
+      "page": 93,
+      "chars": 4997,
+      "text_present": true
+    },
+    {
+      "page": 94,
+      "chars": 4599,
+      "text_present": true
+    },
+    {
+      "page": 95,
+      "chars": 4551,
+      "text_present": true
+    },
+    {
+      "page": 96,
+      "chars": 3804,
+      "text_present": true,
+      "visual_crop": "pages/page-096.png"
+    },
+    {
+      "page": 97,
+      "chars": 2826,
+      "text_present": true
+    },
+    {
+      "page": 98,
+      "chars": 2087,
+      "text_present": true
+    },
+    {
+      "page": 99,
+      "chars": 4433,
+      "text_present": true
+    },
+    {
+      "page": 100,
+      "chars": 4933,
+      "text_present": true
+    },
+    {
+      "page": 101,
+      "chars": 4790,
+      "text_present": true
+    },
+    {
+      "page": 102,
+      "chars": 2022,
+      "text_present": true
+    },
+    {
+      "page": 103,
+      "chars": 3606,
+      "text_present": true
+    },
+    {
+      "page": 104,
+      "chars": 4255,
+      "text_present": true
+    },
+    {
+      "page": 105,
+      "chars": 4576,
+      "text_present": true
+    },
+    {
+      "page": 106,
+      "chars": 2849,
+      "text_present": true
+    },
+    {
+      "page": 107,
+      "chars": 2714,
+      "text_present": true
+    },
+    {
+      "page": 108,
+      "chars": 4217,
+      "text_present": true
+    },
+    {
+      "page": 109,
+      "chars": 3890,
+      "text_present": true
+    },
+    {
+      "page": 110,
+      "chars": 0,
+      "text_present": false
+    },
+    {
+      "page": 111,
+      "chars": 78,
+      "text_present": true
+    },
+    {
+      "page": 112,
+      "chars": 0,
+      "text_present": false
+    },
+    {
+      "page": 113,
+      "chars": 133,
+      "text_present": true
+    },
+    {
+      "page": 114,
+      "chars": 712,
+      "text_present": true
+    },
+    {
+      "page": 115,
+      "chars": 4540,
+      "text_present": true
+    },
+    {
+      "page": 116,
+      "chars": 3060,
+      "text_present": true,
+      "visual_crop": "pages/page-116.png"
+    },
+    {
+      "page": 117,
+      "chars": 3229,
+      "text_present": true,
+      "visual_crop": "pages/page-117.png"
+    },
+    {
+      "page": 118,
+      "chars": 4644,
+      "text_present": true
+    },
+    {
+      "page": 119,
+      "chars": 4465,
+      "text_present": true
+    },
+    {
+      "page": 120,
+      "chars": 2658,
+      "text_present": true,
+      "visual_crop": "pages/page-120.png"
+    },
+    {
+      "page": 121,
+      "chars": 5529,
+      "text_present": true
+    },
+    {
+      "page": 122,
+      "chars": 6018,
+      "text_present": true
+    },
+    {
+      "page": 123,
+      "chars": 4535,
+      "text_present": true,
+      "visual_crop": "pages/page-123.png"
+    },
+    {
+      "page": 124,
+      "chars": 3703,
+      "text_present": true,
+      "visual_crop": "pages/page-124.png"
+    },
+    {
+      "page": 125,
+      "chars": 6610,
+      "text_present": true
+    },
+    {
+      "page": 126,
+      "chars": 2972,
+      "text_present": true,
+      "visual_crop": "pages/page-126.png"
+    },
+    {
+      "page": 127,
+      "chars": 4620,
+      "text_present": true
+    },
+    {
+      "page": 128,
+      "chars": 6906,
+      "text_present": true
+    },
+    {
+      "page": 129,
+      "chars": 3347,
+      "text_present": true,
+      "visual_crop": "pages/page-129.png"
+    },
+    {
+      "page": 130,
+      "chars": 2766,
+      "text_present": true,
+      "visual_crop": "pages/page-130.png"
+    },
+    {
+      "page": 131,
+      "chars": 4708,
+      "text_present": true
+    },
+    {
+      "page": 132,
+      "chars": 4884,
+      "text_present": true
+    },
+    {
+      "page": 133,
+      "chars": 3101,
+      "text_present": true,
+      "visual_crop": "pages/page-133.png"
+    },
+    {
+      "page": 134,
+      "chars": 4003,
+      "text_present": true
+    },
+    {
+      "page": 135,
+      "chars": 4720,
+      "text_present": true
+    },
+    {
+      "page": 136,
+      "chars": 4775,
+      "text_present": true
+    },
+    {
+      "page": 137,
+      "chars": 4508,
+      "text_present": true
+    },
+    {
+      "page": 138,
+      "chars": 552,
+      "text_present": true
+    },
+    {
+      "page": 139,
+      "chars": 2330,
+      "text_present": true
+    },
+    {
+      "page": 140,
+      "chars": 2791,
+      "text_present": true
+    },
+    {
+      "page": 141,
+      "chars": 2486,
+      "text_present": true
+    },
+    {
+      "page": 142,
+      "chars": 2536,
+      "text_present": true
+    },
+    {
+      "page": 143,
+      "chars": 4059,
+      "text_present": true
+    },
+    {
+      "page": 144,
+      "chars": 4718,
+      "text_present": true
+    },
+    {
+      "page": 145,
+      "chars": 4870,
+      "text_present": true
+    },
+    {
+      "page": 146,
+      "chars": 4698,
+      "text_present": true
+    },
+    {
+      "page": 147,
+      "chars": 4850,
+      "text_present": true
+    },
+    {
+      "page": 148,
+      "chars": 3762,
+      "text_present": true
+    },
+    {
+      "page": 149,
+      "chars": 4177,
+      "text_present": true
+    },
+    {
+      "page": 150,
+      "chars": 4299,
+      "text_present": true
+    },
+    {
+      "page": 151,
+      "chars": 2793,
+      "text_present": true
+    },
+    {
+      "page": 152,
+      "chars": 3158,
+      "text_present": true
+    },
+    {
+      "page": 153,
+      "chars": 4647,
+      "text_present": true
+    },
+    {
+      "page": 154,
+      "chars": 4866,
+      "text_present": true
+    },
+    {
+      "page": 155,
+      "chars": 4761,
+      "text_present": true
+    },
+    {
+      "page": 156,
+      "chars": 0,
+      "text_present": false
+    },
+    {
+      "page": 157,
+      "chars": 130,
+      "text_present": true
+    },
+    {
+      "page": 158,
+      "chars": 658,
+      "text_present": true
+    },
+    {
+      "page": 159,
+      "chars": 4552,
+      "text_present": true
+    },
+    {
+      "page": 160,
+      "chars": 4403,
+      "text_present": true
+    },
+    {
+      "page": 161,
+      "chars": 2723,
+      "text_present": true,
+      "visual_crop": "pages/page-161.png"
+    },
+    {
+      "page": 162,
+      "chars": 4401,
+      "text_present": true,
+      "visual_crop": "pages/page-162.png"
+    },
+    {
+      "page": 163,
+      "chars": 1427,
+      "text_present": true,
+      "visual_crop": "pages/page-163.png"
+    },
+    {
+      "page": 164,
+      "chars": 2125,
+      "text_present": true,
+      "visual_crop": "pages/page-164.png"
+    },
+    {
+      "page": 165,
+      "chars": 3270,
+      "text_present": true,
+      "visual_crop": "pages/page-165.png"
+    },
+    {
+      "page": 166,
+      "chars": 2230,
+      "text_present": true,
+      "visual_crop": "pages/page-166.png"
+    },
+    {
+      "page": 167,
+      "chars": 3106,
+      "text_present": true,
+      "visual_crop": "pages/page-167.png"
+    },
+    {
+      "page": 168,
+      "chars": 3212,
+      "text_present": true,
+      "visual_crop": "pages/page-168.png"
+    },
+    {
+      "page": 169,
+      "chars": 4592,
+      "text_present": true
+    },
+    {
+      "page": 170,
+      "chars": 4519,
+      "text_present": true
+    },
+    {
+      "page": 171,
+      "chars": 2623,
+      "text_present": true,
+      "visual_crop": "pages/page-171.png"
+    },
+    {
+      "page": 172,
+      "chars": 2552,
+      "text_present": true,
+      "visual_crop": "pages/page-172.png"
+    },
+    {
+      "page": 173,
+      "chars": 4467,
+      "text_present": true
+    },
+    {
+      "page": 174,
+      "chars": 4855,
+      "text_present": true
+    },
+    {
+      "page": 175,
+      "chars": 4556,
+      "text_present": true
+    },
+    {
+      "page": 176,
+      "chars": 1396,
+      "text_present": true
+    },
+    {
+      "page": 177,
+      "chars": 4175,
+      "text_present": true
+    },
+    {
+      "page": 178,
+      "chars": 3898,
+      "text_present": true
+    },
+    {
+      "page": 179,
+      "chars": 4453,
+      "text_present": true
+    },
+    {
+      "page": 180,
+      "chars": 1436,
+      "text_present": true
+    },
+    {
+      "page": 181,
+      "chars": 4248,
+      "text_present": true
+    },
+    {
+      "page": 182,
+      "chars": 4288,
+      "text_present": true
+    },
+    {
+      "page": 183,
+      "chars": 4119,
+      "text_present": true
+    },
+    {
+      "page": 184,
+      "chars": 4161,
+      "text_present": true
+    },
+    {
+      "page": 185,
+      "chars": 2079,
+      "text_present": true
+    },
+    {
+      "page": 186,
+      "chars": 0,
+      "text_present": false
+    },
+    {
+      "page": 187,
+      "chars": 142,
+      "text_present": true
+    },
+    {
+      "page": 188,
+      "chars": 468,
+      "text_present": true
+    },
+    {
+      "page": 189,
+      "chars": 4683,
+      "text_present": true
+    },
+    {
+      "page": 190,
+      "chars": 5321,
+      "text_present": true
+    },
+    {
+      "page": 191,
+      "chars": 4769,
+      "text_present": true
+    },
+    {
+      "page": 192,
+      "chars": 4463,
+      "text_present": true
+    },
+    {
+      "page": 193,
+      "chars": 4863,
+      "text_present": true
+    },
+    {
+      "page": 194,
+      "chars": 4210,
+      "text_present": true
+    },
+    {
+      "page": 195,
+      "chars": 4859,
+      "text_present": true
+    },
+    {
+      "page": 196,
+      "chars": 2596,
+      "text_present": true,
+      "visual_crop": "pages/page-196.png"
+    },
+    {
+      "page": 197,
+      "chars": 3557,
+      "text_present": true,
+      "visual_crop": "pages/page-197.png"
+    },
+    {
+      "page": 198,
+      "chars": 3671,
+      "text_present": true,
+      "visual_crop": "pages/page-198.png"
+    },
+    {
+      "page": 199,
+      "chars": 1927,
+      "text_present": true,
+      "visual_crop": "pages/page-199.png"
+    },
+    {
+      "page": 200,
+      "chars": 4514,
+      "text_present": true
+    },
+    {
+      "page": 201,
+      "chars": 3468,
+      "text_present": true,
+      "visual_crop": "pages/page-201.png"
+    },
+    {
+      "page": 202,
+      "chars": 4638,
+      "text_present": true
+    },
+    {
+      "page": 203,
+      "chars": 3953,
+      "text_present": true
+    },
+    {
+      "page": 204,
+      "chars": 2794,
+      "text_present": true
+    },
+    {
+      "page": 205,
+      "chars": 4637,
+      "text_present": true
+    },
+    {
+      "page": 206,
+      "chars": 4694,
+      "text_present": true
+    },
+    {
+      "page": 207,
+      "chars": 3288,
+      "text_present": true
+    },
+    {
+      "page": 208,
+      "chars": 4068,
+      "text_present": true
+    },
+    {
+      "page": 209,
+      "chars": 4307,
+      "text_present": true
+    },
+    {
+      "page": 210,
+      "chars": 1871,
+      "text_present": true
+    },
+    {
+      "page": 211,
+      "chars": 4205,
+      "text_present": true
+    },
+    {
+      "page": 212,
+      "chars": 4881,
+      "text_present": true
+    },
+    {
+      "page": 213,
+      "chars": 4908,
+      "text_present": true
+    },
+    {
+      "page": 214,
+      "chars": 1387,
+      "text_present": true
+    },
+    {
+      "page": 215,
+      "chars": 3830,
+      "text_present": true
+    },
+    {
+      "page": 216,
+      "chars": 4601,
+      "text_present": true
+    },
+    {
+      "page": 217,
+      "chars": 1355,
+      "text_present": true
+    },
+    {
+      "page": 218,
+      "chars": 0,
+      "text_present": false
+    },
+    {
+      "page": 219,
+      "chars": 24,
+      "text_present": true
+    },
+    {
+      "page": 220,
+      "chars": 0,
+      "text_present": false
+    },
+    {
+      "page": 221,
+      "chars": 5229,
+      "text_present": true
+    },
+    {
+      "page": 222,
+      "chars": 6494,
+      "text_present": true
+    },
+    {
+      "page": 223,
+      "chars": 6419,
+      "text_present": true
+    },
+    {
+      "page": 224,
+      "chars": 7813,
+      "text_present": true
+    },
+    {
+      "page": 225,
+      "chars": 6793,
+      "text_present": true
+    },
+    {
+      "page": 226,
+      "chars": 8092,
+      "text_present": true
+    },
+    {
+      "page": 227,
+      "chars": 9264,
+      "text_present": true
+    },
+    {
+      "page": 228,
+      "chars": 9122,
+      "text_present": true
+    },
+    {
+      "page": 229,
+      "chars": 8924,
+      "text_present": true
+    },
+    {
+      "page": 230,
+      "chars": 7851,
+      "text_present": true
+    },
+    {
+      "page": 231,
+      "chars": 8925,
+      "text_present": true
+    },
+    {
+      "page": 232,
+      "chars": 8942,
+      "text_present": true
+    },
+    {
+      "page": 233,
+      "chars": 8854,
+      "text_present": true
+    },
+    {
+      "page": 234,
+      "chars": 8079,
+      "text_present": true
+    },
+    {
+      "page": 235,
+      "chars": 8170,
+      "text_present": true
+    },
+    {
+      "page": 236,
+      "chars": 7169,
+      "text_present": true,
+      "visual_crop": "pages/page-236.png"
+    },
+    {
+      "page": 237,
+      "chars": 7620,
+      "text_present": true
+    },
+    {
+      "page": 238,
+      "chars": 7315,
+      "text_present": true
+    },
+    {
+      "page": 239,
+      "chars": 8476,
+      "text_present": true
+    },
+    {
+      "page": 240,
+      "chars": 5862,
+      "text_present": true
+    },
+    {
+      "page": 241,
+      "chars": 6822,
+      "text_present": true
+    },
+    {
+      "page": 242,
+      "chars": 8411,
+      "text_present": true
+    },
+    {
+      "page": 243,
+      "chars": 8387,
+      "text_present": true
+    },
+    {
+      "page": 244,
+      "chars": 8113,
+      "text_present": true
+    },
+    {
+      "page": 245,
+      "chars": 8200,
+      "text_present": true
+    },
+    {
+      "page": 246,
+      "chars": 8369,
+      "text_present": true
+    },
+    {
+      "page": 247,
+      "chars": 8045,
+      "text_present": true
+    },
+    {
+      "page": 248,
+      "chars": 8622,
+      "text_present": true
+    },
+    {
+      "page": 249,
+      "chars": 8170,
+      "text_present": true
+    },
+    {
+      "page": 250,
+      "chars": 8199,
+      "text_present": true
+    },
+    {
+      "page": 251,
+      "chars": 8262,
+      "text_present": true
+    },
+    {
+      "page": 252,
+      "chars": 8241,
+      "text_present": true
+    },
+    {
+      "page": 253,
+      "chars": 8051,
+      "text_present": true
+    },
+    {
+      "page": 254,
+      "chars": 8347,
+      "text_present": true
+    },
+    {
+      "page": 255,
+      "chars": 8340,
+      "text_present": true
+    },
+    {
+      "page": 256,
+      "chars": 8231,
+      "text_present": true
+    },
+    {
+      "page": 257,
+      "chars": 8536,
+      "text_present": true
+    },
+    {
+      "page": 258,
+      "chars": 8265,
+      "text_present": true
+    },
+    {
+      "page": 259,
+      "chars": 7948,
+      "text_present": true
+    },
+    {
+      "page": 260,
+      "chars": 8211,
+      "text_present": true
+    },
+    {
+      "page": 261,
+      "chars": 8259,
+      "text_present": true
+    },
+    {
+      "page": 262,
+      "chars": 8193,
+      "text_present": true
+    },
+    {
+      "page": 263,
+      "chars": 8279,
+      "text_present": true
+    },
+    {
+      "page": 264,
+      "chars": 8529,
+      "text_present": true
+    },
+    {
+      "page": 265,
+      "chars": 8460,
+      "text_present": true
+    },
+    {
+      "page": 266,
+      "chars": 7835,
+      "text_present": true
+    },
+    {
+      "page": 267,
+      "chars": 8306,
+      "text_present": true
+    },
+    {
+      "page": 268,
+      "chars": 8558,
+      "text_present": true
+    },
+    {
+      "page": 269,
+      "chars": 8297,
+      "text_present": true
+    },
+    {
+      "page": 270,
+      "chars": 8152,
+      "text_present": true
+    },
+    {
+      "page": 271,
+      "chars": 8026,
+      "text_present": true
+    },
+    {
+      "page": 272,
+      "chars": 8256,
+      "text_present": true
+    },
+    {
+      "page": 273,
+      "chars": 8349,
+      "text_present": true
+    },
+    {
+      "page": 274,
+      "chars": 7916,
+      "text_present": true
+    },
+    {
+      "page": 275,
+      "chars": 8558,
+      "text_present": true
+    },
+    {
+      "page": 276,
+      "chars": 8389,
+      "text_present": true
+    },
+    {
+      "page": 277,
+      "chars": 8558,
+      "text_present": true
+    },
+    {
+      "page": 278,
+      "chars": 2650,
+      "text_present": true
+    },
+    {
+      "page": 279,
+      "chars": 0,
+      "text_present": false
+    },
+    {
+      "page": 280,
+      "chars": 0,
+      "text_present": false
+    },
+    {
+      "page": 281,
+      "chars": 17,
+      "text_present": true
+    },
+    {
+      "page": 282,
+      "chars": 486,
+      "text_present": true
+    },
+    {
+      "page": 283,
+      "chars": 3240,
+      "text_present": true
+    },
+    {
+      "page": 284,
+      "chars": 2715,
+      "text_present": true
+    },
+    {
+      "page": 285,
+      "chars": 3893,
+      "text_present": true
+    },
+    {
+      "page": 286,
+      "chars": 2248,
+      "text_present": true
+    },
+    {
+      "page": 287,
+      "chars": 35,
+      "text_present": true
+    },
+    {
+      "page": 288,
+      "chars": 3450,
+      "text_present": true,
+      "visual_crop": "pages/page-288.png"
+    },
+    {
+      "page": 289,
+      "chars": 3496,
+      "text_present": true,
+      "visual_crop": "pages/page-289.png"
+    },
+    {
+      "page": 290,
+      "chars": 3562,
+      "text_present": true,
+      "visual_crop": "pages/page-290.png"
+    },
+    {
+      "page": 291,
+      "chars": 1746,
+      "text_present": true,
+      "visual_crop": "pages/page-291.png"
+    },
+    {
+      "page": 292,
+      "chars": 5003,
+      "text_present": true
+    },
+    {
+      "page": 293,
+      "chars": 5418,
+      "text_present": true,
+      "visual_crop": "pages/page-293.png"
+    },
+    {
+      "page": 294,
+      "chars": 5338,
+      "text_present": true,
+      "visual_crop": "pages/page-294.png"
+    },
+    {
+      "page": 295,
+      "chars": 5450,
+      "text_present": true,
+      "visual_crop": "pages/page-295.png"
+    },
+    {
+      "page": 296,
+      "chars": 3608,
+      "text_present": true,
+      "visual_crop": "pages/page-296.png"
+    },
+    {
+      "page": 297,
+      "chars": 5511,
+      "text_present": true,
+      "visual_crop": "pages/page-297.png"
+    },
+    {
+      "page": 298,
+      "chars": 5587,
+      "text_present": true,
+      "visual_crop": "pages/page-298.png"
+    },
+    {
+      "page": 299,
+      "chars": 5751,
+      "text_present": true,
+      "visual_crop": "pages/page-299.png"
+    },
+    {
+      "page": 300,
+      "chars": 4374,
+      "text_present": true,
+      "visual_crop": "pages/page-300.png"
+    },
+    {
+      "page": 301,
+      "chars": 5040,
+      "text_present": true
+    },
+    {
+      "page": 302,
+      "chars": 5210,
+      "text_present": true,
+      "visual_crop": "pages/page-302.png"
+    },
+    {
+      "page": 303,
+      "chars": 5174,
+      "text_present": true,
+      "visual_crop": "pages/page-303.png"
+    },
+    {
+      "page": 304,
+      "chars": 5155,
+      "text_present": true,
+      "visual_crop": "pages/page-304.png"
+    },
+    {
+      "page": 305,
+      "chars": 3245,
+      "text_present": true,
+      "visual_crop": "pages/page-305.png"
+    },
+    {
+      "page": 306,
+      "chars": 6398,
+      "text_present": true
+    },
+    {
+      "page": 307,
+      "chars": 3747,
+      "text_present": true,
+      "visual_crop": "pages/page-307.png"
+    },
+    {
+      "page": 308,
+      "chars": 3902,
+      "text_present": true,
+      "visual_crop": "pages/page-308.png"
+    },
+    {
+      "page": 309,
+      "chars": 4019,
+      "text_present": true,
+      "visual_crop": "pages/page-309.png"
+    },
+    {
+      "page": 310,
+      "chars": 2681,
+      "text_present": true,
+      "visual_crop": "pages/page-310.png"
+    },
+    {
+      "page": 311,
+      "chars": 3192,
+      "text_present": true
+    },
+    {
+      "page": 312,
+      "chars": 6191,
+      "text_present": true,
+      "visual_crop": "pages/page-312.png"
+    },
+    {
+      "page": 313,
+      "chars": 6261,
+      "text_present": true,
+      "visual_crop": "pages/page-313.png"
+    },
+    {
+      "page": 314,
+      "chars": 6167,
+      "text_present": true
+    },
+    {
+      "page": 315,
+      "chars": 4047,
+      "text_present": true,
+      "visual_crop": "pages/page-315.png"
+    },
+    {
+      "page": 316,
+      "chars": 3842,
+      "text_present": true,
+      "visual_crop": "pages/page-316.png"
+    },
+    {
+      "page": 317,
+      "chars": 3884,
+      "text_present": true,
+      "visual_crop": "pages/page-317.png"
+    },
+    {
+      "page": 318,
+      "chars": 2686,
+      "text_present": true,
+      "visual_crop": "pages/page-318.png"
+    },
+    {
+      "page": 319,
+      "chars": 3461,
+      "text_present": true
+    },
+    {
+      "page": 320,
+      "chars": 2579,
+      "text_present": true
+    },
+    {
+      "page": 321,
+      "chars": 4237,
+      "text_present": true
+    },
+    {
+      "page": 322,
+      "chars": 0,
+      "text_present": false
+    },
+    {
+      "page": 323,
+      "chars": 2778,
+      "text_present": true
+    },
+    {
+      "page": 324,
+      "chars": 113,
+      "text_present": true
+    }
+  ],
+  "skipped": [
+    {
+      "page": 4,
+      "reason": "No extractable text layer; decorative/image-only content was not OCRed."
+    },
+    {
+      "page": 24,
+      "reason": "No extractable text layer; decorative/image-only content was not OCRed."
+    },
+    {
+      "page": 40,
+      "reason": "No extractable text layer; decorative/image-only content was not OCRed."
+    },
+    {
+      "page": 58,
+      "reason": "No extractable text layer; decorative/image-only content was not OCRed."
+    },
+    {
+      "page": 84,
+      "reason": "No extractable text layer; decorative/image-only content was not OCRed."
+    },
+    {
+      "page": 110,
+      "reason": "No extractable text layer; decorative/image-only content was not OCRed."
+    },
+    {
+      "page": 112,
+      "reason": "No extractable text layer; decorative/image-only content was not OCRed."
+    },
+    {
+      "page": 156,
+      "reason": "No extractable text layer; decorative/image-only content was not OCRed."
+    },
+    {
+      "page": 186,
+      "reason": "No extractable text layer; decorative/image-only content was not OCRed."
+    },
+    {
+      "page": 218,
+      "reason": "No extractable text layer; decorative/image-only content was not OCRed."
+    },
+    {
+      "page": 220,
+      "reason": "No extractable text layer; decorative/image-only content was not OCRed."
+    },
+    {
+      "page": 279,
+      "reason": "No extractable text layer; decorative/image-only content was not OCRed."
+    },
+    {
+      "page": 280,
+      "reason": "No extractable text layer; decorative/image-only content was not OCRed."
+    },
+    {
+      "page": 322,
+      "reason": "No extractable text layer; decorative/image-only content was not OCRed."
+    }
+  ]
+}

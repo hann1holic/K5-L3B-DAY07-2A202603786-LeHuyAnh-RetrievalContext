@@ -1,0 +1,77 @@
+{
+  "pdf": "HDR_2023-24_UNDP.pdf",
+  "pages": 324,
+  "chunks": 1354,
+  "page_text_chunks": 1243,
+  "table_chunks": 28,
+  "figure_caption_chunks": 68,
+  "pages_without_text": [
+    {
+      "page": 4,
+      "reason": "No extractable text layer; decorative/image-only content was not OCRed."
+    },
+    {
+      "page": 24,
+      "reason": "No extractable text layer; decorative/image-only content was not OCRed."
+    },
+    {
+      "page": 40,
+      "reason": "No extractable text layer; decorative/image-only content was not OCRed."
+    },
+    {
+      "page": 58,
+      "reason": "No extractable text layer; decorative/image-only content was not OCRed."
+    },
+    {
+      "page": 84,
+      "reason": "No extractable text layer; decorative/image-only content was not OCRed."
+    },
+    {
+      "page": 110,
+      "reason": "No extractable text layer; decorative/image-only content was not OCRed."
+    },
+    {
+      "page": 112,
+      "reason": "No extractable text layer; decorative/image-only content was not OCRed."
+    },
+    {
+      "page": 156,
+      "reason": "No extractable text layer; decorative/image-only content was not OCRed."
+    },
+    {
+      "page": 186,
+      "reason": "No extractable text layer; decorative/image-only content was not OCRed."
+    },
+    {
+      "page": 218,
+      "reason": "No extractable text layer; decorative/image-only content was not OCRed."
+    },
+    {
+      "page": 220,
+      "reason": "No extractable text layer; decorative/image-only content was not OCRed."
+    },
+    {
+      "page": 279,
+      "reason": "No extractable text layer; decorative/image-only content was not OCRed."
+    },
+    {
+      "page": 280,
+      "reason": "No extractable text layer; decorative/image-only content was not OCRed."
+    },
+    {
+      "page": 322,
+      "reason": "No extractable text layer; decorative/image-only content was not OCRed."
+    }
+  ],
+  "embedding_model": "text-embedding-3-small",
+  "embedding_tokens_reported": 490472,
+  "embedding_cost_usd": null,
+  "rendered_pages": 87,
+  "index_path": "starter/results/advanced/chroma",
+  "collection": "undp_hdr_2023_24",
+  "visual_descriptions": 10,
+  "table_description_chunks": 5,
+  "index_build_embedding_tokens_reported": 490472,
+  "verified_description_embedding_tokens_reported": 1293,
+  "total_embedding_tokens_reported": 491765
+}

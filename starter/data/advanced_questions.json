@@ -1,0 +1,857 @@
+[
+  {
+    "id": "D-T01",
+    "split": "dev",
+    "main_category": "table",
+    "question": "What rank and GNI per capita does Table 1 report for Switzerland? Include the GNI unit.",
+    "answerable": true,
+    "expected_answer": "Rank 1; GNI per capita $69,433 in 2017 PPP dollars.",
+    "gold": [
+      {
+        "source": "UNDP Human Development Report 2023/24, English edition",
+        "page": 288,
+        "kind": "table",
+        "evidence": "1 Switzerland 0.967 84.3 16.6 13.9 69,433",
+        "visual_locator": "Physical PDF page 288; see indexed page crop if applicable"
+      }
+    ],
+    "review_note": ""
+  },
+  {
+    "id": "D-T02",
+    "split": "dev",
+    "main_category": "table",
+    "question": "What HDI rank and value does Table 1 report for Norway?",
+    "answerable": true,
+    "expected_answer": "Rank 2; HDI 0.966.",
+    "gold": [
+      {
+        "source": "UNDP Human Development Report 2023/24, English edition",
+        "page": 288,
+        "kind": "table",
+        "evidence": "2 Norway 0.966 83.4",
+        "visual_locator": "Physical PDF page 288; see indexed page crop if applicable"
+      }
+    ],
+    "review_note": ""
+  },
+  {
+    "id": "D-T03",
+    "split": "dev",
+    "main_category": "table",
+    "question": "Table 3.1 gives what provision prognosis for a best-shot global public good?",
+    "answerable": true,
+    "expected_answer": "It is likely to be provided if incentives are strong enough for the best shooter to contribute.",
+    "gold": [
+      {
+        "source": "UNDP Human Development Report 2023/24, English edition",
+        "page": 91,
+        "kind": "table",
+        "evidence": "Best-shot ... Likely to be provided if incentives are strong enough for the best shooter to contribute",
+        "visual_locator": "Physical PDF page 91; see indexed page crop if applicable"
+      }
+    ],
+    "review_note": ""
+  },
+  {
+    "id": "D-I01",
+    "split": "dev",
+    "main_category": "image_diagram",
+    "question": "What does the central text in Figure 4.1 say the interaction is based on?",
+    "answerable": true,
+    "expected_answer": "Public reasoning and procedures of social choice; the interaction is mutually dependent.",
+    "gold": [
+      {
+        "source": "UNDP Human Development Report 2023/24, English edition",
+        "page": 116,
+        "kind": "diagram",
+        "evidence": "Interactions are mutually dependent and based on public reasoning and procedures of social choice",
+        "visual_locator": "Physical PDF page 116; see indexed page crop if applicable"
+      }
+    ],
+    "review_note": ""
+  },
+  {
+    "id": "D-I02",
+    "split": "dev",
+    "main_category": "image_diagram",
+    "question": "In Figure 2.4, what are the direct belief-related impacts listed after shocks?",
+    "answerable": true,
+    "expected_answer": "Perceptions of threat and insecurity, and attitudes.",
+    "gold": [
+      {
+        "source": "UNDP Human Development Report 2023/24, English edition",
+        "page": 67,
+        "kind": "diagram",
+        "evidence": "Direct impact on beliefs (perceptions of threat, insecurity), attitudes",
+        "visual_locator": "Physical PDF page 67; see indexed page crop if applicable"
+      }
+    ],
+    "review_note": ""
+  },
+  {
+    "id": "D-I03",
+    "split": "dev",
+    "main_category": "image_diagram",
+    "question": "Besides control over one's own life, what does the Figure S.7 infographic report about people's influence over government?",
+    "answerable": true,
+    "expected_answer": "About 7 in 10 (68%) report little influence over what the government does.",
+    "gold": [
+      {
+        "source": "UNDP Human Development Report 2023/24, English edition",
+        "page": 23,
+        "kind": "infographic",
+        "evidence": "Voice in politics 7 in 10 or 68% report little influence over what the government does",
+        "visual_locator": "Physical PDF page 23; see indexed page crop if applicable"
+      }
+    ],
+    "review_note": ""
+  },
+  {
+    "id": "D-C01",
+    "split": "dev",
+    "main_category": "chart",
+    "question": "In Figure 2.9, which HDI group has the highest median planetary-pressure index?",
+    "answerable": true,
+    "expected_answer": "The very-high-HDI group.",
+    "gold": [
+      {
+        "source": "UNDP Human Development Report 2023/24, English edition",
+        "page": 71,
+        "kind": "chart",
+        "evidence": "Figure 2.9 ... higher Human Development Index countries put higher pressures on the planet; central line is the median",
+        "visual_locator": "Physical PDF page 71; see indexed page crop if applicable"
+      }
+    ],
+    "review_note": ""
+  },
+  {
+    "id": "D-C02",
+    "split": "dev",
+    "main_category": "chart",
+    "question": "In Figure O.3, approximately what share of global GDP did the sum of exports and imports represent in 2022?",
+    "answerable": true,
+    "expected_answer": "About 60%.",
+    "gold": [
+      {
+        "source": "UNDP Human Development Report 2023/24, English edition",
+        "page": 29,
+        "kind": "chart",
+        "evidence": "Figure O.3 Sum of global exports and imports as a share of global GDP; 2022 is near 60%",
+        "visual_locator": "Physical PDF page 29; see indexed page crop if applicable"
+      }
+    ],
+    "review_note": ""
+  },
+  {
+    "id": "D-C03",
+    "split": "dev",
+    "main_category": "chart",
+    "question": "Looking at the right-hand panel of Figure 1.9 on physical PDF page 52, which named HDI group has its median below the zero line?",
+    "answerable": true,
+    "expected_answer": "The very high HDI group.",
+    "gold": [
+      {
+        "source": "UNDP Human Development Report 2023/24, English edition",
+        "page": 52,
+        "kind": "chart",
+        "evidence": "Very high HDI median is below zero on the projected additional extreme-temperature-days panel",
+        "visual_locator": "Physical PDF page 52; see indexed page crop if applicable"
+      }
+    ],
+    "review_note": ""
+  },
+  {
+    "id": "D-M01",
+    "split": "dev",
+    "main_category": "multi_hop",
+    "question": "Compare Tables 1 and 7 for Norway: what are its HDI and PHDI values, and what percentage reduction does Table 7 show?",
+    "answerable": true,
+    "expected_answer": "HDI 0.966; PHDI 0.808; 16.4% lower than HDI.",
+    "gold": [
+      {
+        "source": "UNDP Human Development Report 2023/24, English edition",
+        "page": 288,
+        "kind": "table",
+        "evidence": "2 Norway 0.966",
+        "visual_locator": "Physical PDF page 288; see indexed page crop if applicable"
+      },
+      {
+        "source": "UNDP Human Development Report 2023/24, English edition",
+        "page": 315,
+        "kind": "table",
+        "evidence": "2 Norway 0.966 0.808 16.4",
+        "visual_locator": "Physical PDF page 315; see indexed page crop if applicable"
+      }
+    ],
+    "review_note": ""
+  },
+  {
+    "id": "D-M02",
+    "split": "dev",
+    "main_category": "multi_hop",
+    "question": "Use Table 3.1 and the discussion of best-shot goods on page 91: why can one country be enough to provide this type of good?",
+    "answerable": true,
+    "expected_answer": "Because provision is determined by the contribution of the country contributing the most; one country may be sufficient to provide it fully.",
+    "gold": [
+      {
+        "source": "UNDP Human Development Report 2023/24, English edition",
+        "page": 91,
+        "kind": "text",
+        "evidence": "When the contribution of the country that contributes the most determines the level of provision ... Potentially only one country is enough",
+        "visual_locator": "Physical PDF page 91; see indexed page crop if applicable"
+      },
+      {
+        "source": "UNDP Human Development Report 2023/24, English edition",
+        "page": 91,
+        "kind": "table",
+        "evidence": "Best-shot global public goods",
+        "visual_locator": "Physical PDF page 91; see indexed page crop if applicable"
+      }
+    ],
+    "review_note": ""
+  },
+  {
+    "id": "D-M03",
+    "split": "dev",
+    "main_category": "multi_hop",
+    "question": "What is the report's two-part explanation for why the HDI recovery is incomplete, combining Figure S.1 and Figure S.2?",
+    "answerable": true,
+    "expected_answer": "Global HDI remains below its pre-2019 trend, and recovery is unequal: many countries had not regained their 2019 HDI by 2023.",
+    "gold": [
+      {
+        "source": "UNDP Human Development Report 2023/24, English edition",
+        "page": 18,
+        "kind": "chart",
+        "evidence": "A permanent shift in the Human Development Index trajectory",
+        "visual_locator": "Physical PDF page 18; see indexed page crop if applicable"
+      },
+      {
+        "source": "UNDP Human Development Report 2023/24, English edition",
+        "page": 18,
+        "kind": "chart",
+        "evidence": "Recovery of Human Development Index ... Developed Countries are projected to have done so",
+        "visual_locator": "Physical PDF page 18; see indexed page crop if applicable"
+      }
+    ],
+    "review_note": ""
+  },
+  {
+    "id": "D-X01",
+    "split": "dev",
+    "main_category": "text",
+    "question": "How many people worldwide does the report say feel worried, stressed or sad?",
+    "answerable": true,
+    "expected_answer": "Almost 3 billion people.",
+    "gold": [
+      {
+        "source": "UNDP Human Development Report 2023/24, English edition",
+        "page": 67,
+        "kind": "text",
+        "evidence": "Across the world almost 3 billion people report feeling worried, stressed or sad",
+        "visual_locator": "Physical PDF page 67; see indexed page crop if applicable"
+      }
+    ],
+    "review_note": ""
+  },
+  {
+    "id": "D-X02",
+    "split": "dev",
+    "main_category": "text",
+    "question": "What within-country differences in Norway's fairness preferences does the report describe?",
+    "answerable": true,
+    "expected_answer": "Egalitarian views are more common among 15-year-olds from low-socioeconomic-status households than high-status households; most grade 5 children are egalitarian, while the meritocratic share rises in higher grades and is largest in grade 13.",
+    "gold": [
+      {
+        "source": "UNDP Human Development Report 2023/24, English edition",
+        "page": 130,
+        "kind": "text",
+        "evidence": "In Norway the share of egalitarians is much higher among 15-year-olds from low socioeconomic households ... most grade 5 children are egalitarians ... meritocratic share increases in higher grades and is largest by grade 13",
+        "visual_locator": "Physical PDF page 130; see indexed page crop if applicable"
+      }
+    ],
+    "review_note": ""
+  },
+  {
+    "id": "D-X03",
+    "split": "dev",
+    "main_category": "text",
+    "question": "For weakest-link public goods, what capacity-related recommendation does Table 3.1 give?",
+    "answerable": true,
+    "expected_answer": "Capacity building is essential to enhance contributions of the least able and redistribute capacities among countries.",
+    "gold": [
+      {
+        "source": "UNDP Human Development Report 2023/24, English edition",
+        "page": 91,
+        "kind": "table",
+        "evidence": "Weakest link ... Capacity building is essential to enhance the contributions of those least able to contribute and to redistribute capacities among countries",
+        "visual_locator": "Physical PDF page 91; see indexed page crop if applicable"
+      }
+    ],
+    "review_note": ""
+  },
+  {
+    "id": "D-A01",
+    "split": "dev",
+    "main_category": "abstention",
+    "question": "What was Vietnam's GDP growth rate in 2025 according to this report?",
+    "answerable": false,
+    "expected_answer": "Abstain: the report does not provide a 2025 Vietnam GDP growth rate.",
+    "gold": [],
+    "review_note": "Full report covers historical indicators through 2022/2023 projections; no 2025 Vietnam GDP growth figure."
+  },
+  {
+    "id": "D-A02",
+    "split": "dev",
+    "main_category": "abstention",
+    "question": "How many square kilometres of Amazon rainforest were deforested in calendar year 2024, according to the report?",
+    "answerable": false,
+    "expected_answer": "Abstain: the report does not give that 2024 Amazon deforestation area.",
+    "gold": [],
+    "review_note": "Search full extracted text for Amazon and 2024 deforestation area; no such figure."
+  },
+  {
+    "id": "D-A03",
+    "split": "dev",
+    "main_category": "abstention",
+    "question": "What was the voter turnout in Indonesia's 2024 presidential election according to this report?",
+    "answerable": false,
+    "expected_answer": "Abstain: the report does not state that election turnout.",
+    "gold": [],
+    "review_note": "The 2024 election result/turnout is not covered in the report."
+  },
+  {
+    "id": "T-T01",
+    "split": "test",
+    "main_category": "table",
+    "question": "In Table 1, give Switzerland's HDI value and life expectancy at birth for 2022.",
+    "answerable": true,
+    "expected_answer": "0.967 and 84.3 years.",
+    "gold": [
+      {
+        "source": "UNDP Human Development Report 2023/24, English edition",
+        "page": 288,
+        "kind": "table",
+        "evidence": "1 Switzerland 0.967 84.3",
+        "visual_locator": "Physical PDF page 288; see indexed page crop if applicable"
+      }
+    ],
+    "review_note": ""
+  },
+  {
+    "id": "T-T02",
+    "split": "test",
+    "main_category": "table",
+    "question": "What expected years of schooling does Table 1 report for Norway? Include units.",
+    "answerable": true,
+    "expected_answer": "18.6 years.",
+    "gold": [
+      {
+        "source": "UNDP Human Development Report 2023/24, English edition",
+        "page": 288,
+        "kind": "table",
+        "evidence": "2 Norway 0.966 83.4 18.6",
+        "visual_locator": "Physical PDF page 288; see indexed page crop if applicable"
+      }
+    ],
+    "review_note": ""
+  },
+  {
+    "id": "T-T03",
+    "split": "test",
+    "main_category": "table",
+    "question": "From Table 1, what are Malaysia's HDI rank and HDI value?",
+    "answerable": true,
+    "expected_answer": "Rank 63; HDI 0.807.",
+    "gold": [
+      {
+        "source": "UNDP Human Development Report 2023/24, English edition",
+        "page": 289,
+        "kind": "table",
+        "evidence": "63 Malaysia 0.807",
+        "visual_locator": "Physical PDF page 289; see indexed page crop if applicable"
+      }
+    ],
+    "review_note": ""
+  },
+  {
+    "id": "T-T04",
+    "split": "test",
+    "main_category": "table",
+    "question": "From Table 1, report Thailand's HDI rank, value, and life expectancy.",
+    "answerable": true,
+    "expected_answer": "Rank 66; HDI 0.803; life expectancy 79.7 years.",
+    "gold": [
+      {
+        "source": "UNDP Human Development Report 2023/24, English edition",
+        "page": 289,
+        "kind": "table",
+        "evidence": "66 Thailand 0.803 79.7",
+        "visual_locator": "Physical PDF page 289; see indexed page crop if applicable"
+      }
+    ],
+    "review_note": ""
+  },
+  {
+    "id": "T-T05",
+    "split": "test",
+    "main_category": "table",
+    "question": "For summation global public goods, what recommendations appear in Table 3.1?",
+    "answerable": true,
+    "expected_answer": "Grants and loans to foster fairness, plus multilateral institutions to monitor and track contributions.",
+    "gold": [
+      {
+        "source": "UNDP Human Development Report 2023/24, English edition",
+        "page": 91,
+        "kind": "table",
+        "evidence": "Summation ... Grants and loans are needed to foster fairness and multilateral institutions are needed to monitor and track contributions",
+        "visual_locator": "Physical PDF page 91; see indexed page crop if applicable"
+      }
+    ],
+    "review_note": ""
+  },
+  {
+    "id": "T-T06",
+    "split": "test",
+    "main_category": "table",
+    "question": "What is Switzerland's 2022 HDI and PHDI in Table 7, and what percentage difference from HDI does the table show?",
+    "answerable": true,
+    "expected_answer": "HDI 0.967; PHDI 0.826; difference −14.6%.",
+    "gold": [
+      {
+        "source": "UNDP Human Development Report 2023/24, English edition",
+        "page": 315,
+        "kind": "table",
+        "evidence": "1 Switzerland 0.967 0.826 14.6",
+        "visual_locator": "Physical PDF page 315; see indexed page crop if applicable"
+      }
+    ],
+    "review_note": ""
+  },
+  {
+    "id": "T-I01",
+    "split": "test",
+    "main_category": "image_diagram",
+    "question": "In Figure 4.1, identify the two circular nodes and explain their relationship.",
+    "answerable": true,
+    "expected_answer": "Behavioural change and institutional/policy change influence one another; the interaction is mutually dependent and based on social choice procedures.",
+    "gold": [
+      {
+        "source": "UNDP Human Development Report 2023/24, English edition",
+        "page": 116,
+        "kind": "diagram",
+        "evidence": "Behavioural change ... Institutional and policy change ... Interactions are mutually dependent",
+        "visual_locator": "Physical PDF page 116; see indexed page crop if applicable"
+      }
+    ],
+    "review_note": ""
+  },
+  {
+    "id": "T-I02",
+    "split": "test",
+    "main_category": "image_diagram",
+    "question": "Reading Figure 2.4 as a flow diagram, what path links interdependence shocks to electoral support for populism?",
+    "answerable": true,
+    "expected_answer": "Shocks/human-development losses change beliefs and attitudes; this shapes policy preferences and leader preferences/programmes, culminating in electoral support for populism.",
+    "gold": [
+      {
+        "source": "UNDP Human Development Report 2023/24, English edition",
+        "page": 67,
+        "kind": "diagram",
+        "evidence": "Mismanaged interdependence → shocks ... Human development losses ... Changes in beliefs ... Electoral outcomes: Support for populism",
+        "visual_locator": "Physical PDF page 67; see indexed page crop if applicable"
+      }
+    ],
+    "review_note": ""
+  },
+  {
+    "id": "T-I03",
+    "split": "test",
+    "main_category": "image_diagram",
+    "question": "Name two United Kingdom government organizations labeled on the Figure 4.2 world map.",
+    "answerable": true,
+    "expected_answer": "Examples include BEIS (UK) and HMCTS (UK). Other correct examples include FCDO, HMRC, DfT, DfE, Ofgem or BIT, each labeled UK.",
+    "gold": [
+      {
+        "source": "UNDP Human Development Report 2023/24, English edition",
+        "page": 124,
+        "kind": "diagram",
+        "evidence": "Figure 4.2 map labels include BEIS (UK), HMCTS (UK), FCDO (UK), HMRC (UK), DfT (UK), DfE (UK), Ofgem (UK), BIT (UK)",
+        "visual_locator": "Physical PDF page 124; see indexed page crop if applicable"
+      }
+    ],
+    "review_note": ""
+  },
+  {
+    "id": "T-I04",
+    "split": "test",
+    "main_category": "image_diagram",
+    "question": "Figure 4.2 maps behavioural-insights efforts. What three types of institutions does its legend distinguish?",
+    "answerable": true,
+    "expected_answer": "Institutions inside government, institutions outside government, and multinational organizations.",
+    "gold": [
+      {
+        "source": "UNDP Human Development Report 2023/24, English edition",
+        "page": 124,
+        "kind": "diagram",
+        "evidence": "Institutions inside government Institutions outside government Multinational organizations",
+        "visual_locator": "Physical PDF page 124; see indexed page crop if applicable"
+      }
+    ],
+    "review_note": ""
+  },
+  {
+    "id": "T-I05",
+    "split": "test",
+    "main_category": "image_diagram",
+    "question": "What proportion does the Figure S.7 pictogram report as not in control of their own lives?",
+    "answerable": true,
+    "expected_answer": "5 in 10, about half.",
+    "gold": [
+      {
+        "source": "UNDP Human Development Report 2023/24, English edition",
+        "page": 23,
+        "kind": "infographic",
+        "evidence": "Control over own life 5 in 10 or about half the world's people report not being in control of their own lives",
+        "visual_locator": "Physical PDF page 23; see indexed page crop if applicable"
+      }
+    ],
+    "review_note": ""
+  },
+  {
+    "id": "T-C01",
+    "split": "test",
+    "main_category": "chart",
+    "question": "In Figure 2.9, compare the medians of the planetary-pressure index across HDI groups. Which group is highest?",
+    "answerable": true,
+    "expected_answer": "Very high HDI; the medians rise from low through very high HDI.",
+    "gold": [
+      {
+        "source": "UNDP Human Development Report 2023/24, English edition",
+        "page": 71,
+        "kind": "chart",
+        "evidence": "Figure 2.9 ... higher Human Development Index countries put higher pressures on the planet; central line is the median",
+        "visual_locator": "Physical PDF page 71; see indexed page crop if applicable"
+      }
+    ],
+    "review_note": ""
+  },
+  {
+    "id": "T-C02",
+    "split": "test",
+    "main_category": "chart",
+    "question": "Figure 2.10 plots HDI against planetary-pressure values. What does its 2022-versus-1990 comparison indicate about pressure for a given HDI level?",
+    "answerable": true,
+    "expected_answer": "In 2022, the average planetary pressure needed to sustain a given HDI level was lower than in 1990.",
+    "gold": [
+      {
+        "source": "UNDP Human Development Report 2023/24, English edition",
+        "page": 71,
+        "kind": "chart",
+        "evidence": "In 2022 the average planetary pressure required to sustain any given HDI level were lower than in 1990 (figure 2.10)",
+        "visual_locator": "Physical PDF page 71; see indexed page crop if applicable"
+      }
+    ],
+    "review_note": ""
+  },
+  {
+    "id": "T-C03",
+    "split": "test",
+    "main_category": "chart",
+    "question": "In Figure 5.1, which period has the highest share of people who both support democracy and view leaders who may undermine it positively?",
+    "answerable": true,
+    "expected_answer": "2017–2022, at about 52% on the vertical axis.",
+    "gold": [
+      {
+        "source": "UNDP Human Development Report 2023/24, English edition",
+        "page": 161,
+        "kind": "chart",
+        "evidence": "Figure 5.1 ... 2017–2022 ... highest point",
+        "visual_locator": "Physical PDF page 161; see indexed page crop if applicable"
+      }
+    ],
+    "review_note": ""
+  },
+  {
+    "id": "T-C04",
+    "split": "test",
+    "main_category": "chart",
+    "question": "Figure S.1 compares the observed global HDI trajectory with the path projected from the 1999–2019 trend. How are they related after 2020?",
+    "answerable": true,
+    "expected_answer": "The observed trajectory remains below the pre-2019 trend/projection.",
+    "gold": [
+      {
+        "source": "UNDP Human Development Report 2023/24, English edition",
+        "page": 18,
+        "kind": "chart",
+        "evidence": "A permanent shift in the Human Development Index trajectory",
+        "visual_locator": "Physical PDF page 18; see indexed page crop if applicable"
+      }
+    ],
+    "review_note": ""
+  },
+  {
+    "id": "T-C05",
+    "split": "test",
+    "main_category": "chart",
+    "question": "In Figure 1.9, what two outcomes are plotted across HDI groups?",
+    "answerable": true,
+    "expected_answer": "2022 planetary-pressure index and additional extreme-temperature days above the 1986–2005 average by end-century.",
+    "gold": [
+      {
+        "source": "UNDP Human Development Report 2023/24, English edition",
+        "page": 52,
+        "kind": "chart",
+        "evidence": "Figure 1.9 ... Index of Planetary Pressures value, 2022 ... Number of additional extreme temperature days above ... average by end-century",
+        "visual_locator": "Physical PDF page 52; see indexed page crop if applicable"
+      }
+    ],
+    "review_note": ""
+  },
+  {
+    "id": "T-M01",
+    "split": "test",
+    "main_category": "multi_hop",
+    "question": "Using Table 1 and Table 7, report Switzerland's life expectancy at birth and its planetary-pressures-adjusted HDI (PHDI).",
+    "answerable": true,
+    "expected_answer": "Life expectancy at birth was 84.3 years (Table 1); PHDI was 0.826 (Table 7).",
+    "gold": [
+      {
+        "source": "UNDP Human Development Report 2023/24, English edition",
+        "page": 288,
+        "kind": "table",
+        "evidence": "1 Switzerland 0.967 84.3",
+        "visual_locator": "Physical PDF page 288; see indexed page crop if applicable"
+      },
+      {
+        "source": "UNDP Human Development Report 2023/24, English edition",
+        "page": 315,
+        "kind": "table",
+        "evidence": "1 Switzerland 0.967 0.826",
+        "visual_locator": "Physical PDF page 315; see indexed page crop if applicable"
+      }
+    ],
+    "review_note": ""
+  },
+  {
+    "id": "T-M02",
+    "split": "test",
+    "main_category": "multi_hop",
+    "question": "Combine Table 3.1 with the Figure 3.1 vaccine timeline: what provision type does the report use for a scientific breakthrough, and how quickly was Covid-19 vaccine authorization compared with the usual timeline?",
+    "answerable": true,
+    "expected_answer": "A scientific breakthrough is a best-shot public good; Covid-19 vaccine authorization was unprecedentedly fast, around one year versus a usual 10–11 years.",
+    "gold": [
+      {
+        "source": "UNDP Human Development Report 2023/24, English edition",
+        "page": 91,
+        "kind": "table",
+        "evidence": "Best-shot (for example, scientific breakthrough)",
+        "visual_locator": "Physical PDF page 91; see indexed page crop if applicable"
+      },
+      {
+        "source": "UNDP Human Development Report 2023/24, English edition",
+        "page": 96,
+        "kind": "chart",
+        "evidence": "Figure 3.1 Authorization for Covid-19 vaccines was unprecedentedly fast ... years",
+        "visual_locator": "Physical PDF page 96; see indexed page crop if applicable"
+      }
+    ],
+    "review_note": ""
+  },
+  {
+    "id": "T-M03",
+    "split": "test",
+    "main_category": "multi_hop",
+    "question": "Combine Figure 2.4 and the discussion on page 67: how can material shocks translate into populist support rather than acting only through economic self-interest?",
+    "answerable": true,
+    "expected_answer": "Welfare losses can change perceived threats, insecurity, beliefs and identities; political leaders can use those attitudes/narratives to build support for populist programmes.",
+    "gold": [
+      {
+        "source": "UNDP Human Development Report 2023/24, English edition",
+        "page": 67,
+        "kind": "diagram",
+        "evidence": "Mismanaged interdependence → shocks ... Direct impact on beliefs (perceptions of threat, insecurity)",
+        "visual_locator": "Physical PDF page 67; see indexed page crop if applicable"
+      },
+      {
+        "source": "UNDP Human Development Report 2023/24, English edition",
+        "page": 67,
+        "kind": "text",
+        "evidence": "Fear and feelings of insecurity ... can shift preferences in a populist and nativist direction",
+        "visual_locator": "Physical PDF page 67; see indexed page crop if applicable"
+      }
+    ],
+    "review_note": ""
+  },
+  {
+    "id": "T-M04",
+    "split": "test",
+    "main_category": "multi_hop",
+    "question": "Combine Figure 2.9 and Table 7: which HDI group has the highest median planetary-pressure index, and what two per-capita indicators contribute to the planetary-pressure adjustment?",
+    "answerable": true,
+    "expected_answer": "The very-high-HDI group has the highest median. The adjustment uses per-capita carbon dioxide emissions and material footprint.",
+    "gold": [
+      {
+        "source": "UNDP Human Development Report 2023/24, English edition",
+        "page": 71,
+        "kind": "chart",
+        "evidence": "Figure 2.9 ... median planetary pressure highest in very-high-HDI group",
+        "visual_locator": "Physical PDF page 71; see indexed page crop if applicable"
+      },
+      {
+        "source": "UNDP Human Development Report 2023/24, English edition",
+        "page": 315,
+        "kind": "table",
+        "evidence": "Carbon dioxide emissions per capita; material footprint per capita",
+        "visual_locator": "Physical PDF page 315; see indexed page crop if applicable"
+      }
+    ],
+    "review_note": ""
+  },
+  {
+    "id": "T-X01",
+    "split": "test",
+    "main_category": "text",
+    "question": "How does the report define the Human Development Index?",
+    "answerable": true,
+    "expected_answer": "A composite index of average achievement in a long and healthy life, knowledge, and a decent standard of living.",
+    "gold": [
+      {
+        "source": "UNDP Human Development Report 2023/24, English edition",
+        "page": 319,
+        "kind": "text",
+        "evidence": "HDI: A composite index measuring average achievement in three basic dimensions of human development—a long and healthy life, knowledge and a decent standard of living",
+        "visual_locator": "Physical PDF page 319; see indexed page crop if applicable"
+      }
+    ],
+    "review_note": ""
+  },
+  {
+    "id": "T-X02",
+    "split": "test",
+    "main_category": "text",
+    "question": "What distinction does the report make between meritocratic and libertarian views of inequality?",
+    "answerable": true,
+    "expected_answer": "Meritocrats accept performance-based inequality but reject luck-based inequality; libertarians accept all inequalities as fair.",
+    "gold": [
+      {
+        "source": "UNDP Human Development Report 2023/24, English edition",
+        "page": 130,
+        "kind": "text",
+        "evidence": "meritocratic individuals (accept inequalities due to differences in performance as fair but those due to luck unfair)",
+        "visual_locator": "Physical PDF page 130; see indexed page crop if applicable"
+      },
+      {
+        "source": "UNDP Human Development Report 2023/24, English edition",
+        "page": 130,
+        "kind": "text",
+        "evidence": "libertarians (accept all inequalities as fair)",
+        "visual_locator": "Physical PDF page 130; see indexed page crop if applicable"
+      }
+    ],
+    "review_note": ""
+  },
+  {
+    "id": "T-X03",
+    "split": "test",
+    "main_category": "text",
+    "question": "What does the report identify as the reason best-shot goods may be provided without contributions from every country?",
+    "answerable": true,
+    "expected_answer": "The largest contributor's contribution determines provision; a sufficiently capable/incentivized country can provide the good by itself.",
+    "gold": [
+      {
+        "source": "UNDP Human Development Report 2023/24, English edition",
+        "page": 91,
+        "kind": "text",
+        "evidence": "When the contribution of the country that contributes the most determines the level of provision ... Potentially only one country is enough",
+        "visual_locator": "Physical PDF page 91; see indexed page crop if applicable"
+      }
+    ],
+    "review_note": ""
+  },
+  {
+    "id": "T-X04",
+    "split": "test",
+    "main_category": "text",
+    "question": "According to the Statistical Annex definition, what does PHDI adjust the HDI for?",
+    "answerable": true,
+    "expected_answer": "Planetary pressures, including carbon dioxide emissions and material footprint.",
+    "gold": [
+      {
+        "source": "UNDP Human Development Report 2023/24, English edition",
+        "page": 315,
+        "kind": "table",
+        "evidence": "Planetary pressures-adjusted HDI (PHDI)",
+        "visual_locator": "Physical PDF page 315; see indexed page crop if applicable"
+      },
+      {
+        "source": "UNDP Human Development Report 2023/24, English edition",
+        "page": 315,
+        "kind": "table",
+        "evidence": "Adjustment factor for planetary pressures Carbon dioxide emissions ... Material footprint",
+        "visual_locator": "Physical PDF page 315; see indexed page crop if applicable"
+      }
+    ],
+    "review_note": ""
+  },
+  {
+    "id": "T-A01",
+    "split": "test",
+    "main_category": "abstention",
+    "question": "What was Vietnam's GDP growth rate in 2025 according to this report?",
+    "answerable": false,
+    "expected_answer": "Abstain: the report provides no 2025 Vietnam GDP growth rate.",
+    "gold": [],
+    "review_note": "No 2025 Vietnam growth figure in report; Vietnam string does not provide such figure."
+  },
+  {
+    "id": "T-A02",
+    "split": "test",
+    "main_category": "abstention",
+    "question": "How many square kilometres of Amazon rainforest were deforested in calendar year 2024, according to the report?",
+    "answerable": false,
+    "expected_answer": "Abstain: this report does not state a 2024 Amazon deforestation area.",
+    "gold": [],
+    "review_note": "Full-text scan found no 2024 Amazon deforestation area."
+  },
+  {
+    "id": "T-A03",
+    "split": "test",
+    "main_category": "abstention",
+    "question": "What was the voter turnout in Indonesia's 2024 presidential election according to this report?",
+    "answerable": false,
+    "expected_answer": "Abstain: this election turnout is not reported.",
+    "gold": [],
+    "review_note": "No evidence in source for this 2024 election turnout."
+  },
+  {
+    "id": "T-A04",
+    "split": "test",
+    "main_category": "abstention",
+    "question": "What was the 2024 population of Ho Chi Minh City according to this report?",
+    "answerable": false,
+    "expected_answer": "Abstain: the report does not give the city's 2024 population.",
+    "gold": [],
+    "review_note": "No HCMC 2024 population value in the report."
+  },
+  {
+    "id": "T-A05",
+    "split": "test",
+    "main_category": "abstention",
+    "question": "What was the 2024 annual inflation rate in Argentina according to this report?",
+    "answerable": false,
+    "expected_answer": "Abstain: the report does not report Argentina's 2024 annual inflation.",
+    "gold": [],
+    "review_note": "No such current-year rate in the 2023/24 HDR source."
+  },
+  {
+    "id": "T-A06",
+    "split": "test",
+    "main_category": "abstention",
+    "question": "Which country had the highest real GDP growth in 2025, according to the report?",
+    "answerable": false,
+    "expected_answer": "Abstain: the report contains no 2025 country growth ranking.",
+    "gold": [],
+    "review_note": "No 2025 country-level GDP growth ranking in the source."
+  }
+]

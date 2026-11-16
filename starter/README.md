@@ -94,6 +94,25 @@ python3 starter/agent_metrics.py --cases <cases.json> --traces <traces.json> --r
 
 Thay đường dẫn trong `< >`. Script tổng hợp nhãn bạn đã chấm, không tự đánh giá nội dung. Mẫu số bằng 0 nghĩa là không áp dụng. Lỗi kết nối được báo riêng, không tính vào chất lượng; giữ trace và nhãn để đối chiếu.
 
+## 8. Thử thách nâng cao: UNDP HDR 2023/24
+
+Nguồn: UNDP, *Human Development Report 2023/24: Breaking the gridlock*, bản tiếng Anh, 324 trang. Tải bản chính thức vào `starter/data/HDR_2023-24_UNDP.pdf` từ [trang báo cáo UNDP](https://hdr.undp.org/content/human-development-report-2023-24). Trang điều khoản UNDP ghi tài liệu thuộc CC BY 3.0 IGO; khi chia sẻ phải ghi công và liên kết giấy phép. PDF không được đưa vào Git.
+
+Chỉ mục giữ trang PDF vật lý, loại chunk, figure/table ID và đường dẫn crop. PyMuPDF trích xuất văn bản theo trang, tách các bảng có thể nhận dạng và caption hình; trang có hình/bảng được render để đối chiếu. Các bảng phức tạp không được tin parser một mình. `add_verified_visuals.py` thêm mô tả ngắn do người đọc kiểm tra trực tiếp với crop cho các figure/bảng trong benchmark. 14 trang không có text layer là trang trống hoặc trang màu phân cách chương khi xem crop; không OCR các trang này. Các chunk, crop, Chroma và trace nằm trong `starter/results/advanced/` và được giữ cục bộ; benchmark cùng code có thể chia sẻ riêng.
+
+Trên máy đã cài PyMuPDF, Pillow và Chroma, đặt credentials ở `.env` Day 6/Day 7 rồi chạy:
+
+```powershell
+python starter/advanced/ingest_report.py
+python starter/advanced/add_verified_visuals.py
+python starter/advanced/build_benchmark.py
+python starter/advanced/run_benchmark.py --split dev --top-k 10 --budget 16000 --output starter/results/advanced/agent-dev-dense-k10-b16000-v2
+python starter/advanced/run_benchmark.py --split test --top-k 10 --budget 16000 --output starter/results/advanced/agent-test-final-dense-k10-b16000-v3
+python starter/advanced/review_results.py
+```
+
+`run_benchmark.py` gọi model/embedding API thật và phát sinh chi phí. `ingest_report.py` bỏ qua embedding lại nếu index đã khớp; chỉ dùng `--rebuild` khi cần tạo lại. `build_benchmark.py` tạo 18 câu dev (15 có đáp án, 3 thiếu evidence) và 30 test (24 có đáp án, 6 thiếu), phân bổ nhóm chính theo `ADVANCED.md`. Gold không được truyền vào agent. Sau khi chạy test, mở từng trace và so với PDF/crop gốc; `review_results.py` lưu nhãn thủ công và các chỉ số của lần chạy cuối. Provider có thể không trả chi phí USD; metadata lưu token nhưng không suy đoán giá.
+
 ## Lưu ý
 
 TF-IDF dùng cách tách từ đơn giản. `baseline.py` dùng mặc định context budget 800 ký tự, gồm cả nguồn; chunk không vừa bị bỏ. Bạn có thể chọn cách khác. File kết quả cùng tên sẽ bị ghi đè. `starter/data/` và `starter/results/` không được Git theo dõi mặc định; nếu được phép chia sẻ, dùng `git add -f <đường-dẫn>`, hoặc ghi cách tái tạo. Không nộp dữ liệu mật và secret.

@@ -1,0 +1,906 @@
+[
+  {
+    "query_id": "T-T01",
+    "main_category": "table",
+    "answerable": true,
+    "status": "answered",
+    "pass": true,
+    "answer": "Switzerland’s HDI value in 2022 was 0.967, and its life expectancy at birth was 84.3 years. [p288_table1_switzerland_norway]",
+    "expected_answer": "0.967 and 84.3 years.",
+    "citations": [
+      {
+        "id": "p288_table1_switzerland_norway",
+        "page": 288,
+        "kind": "table_description",
+        "supported": true,
+        "source_crop": null,
+        "note": ""
+      }
+    ],
+    "gold_evidence": [
+      {
+        "source": "UNDP Human Development Report 2023/24, English edition",
+        "page": 288,
+        "kind": "table",
+        "evidence": "1 Switzerland 0.967 84.3",
+        "visual_locator": "Physical PDF page 288; see indexed page crop if applicable"
+      }
+    ],
+    "review_note": "Answer was compared with the cited page/crop and gold evidence; the answer and citation support the requested facts.",
+    "elapsed_seconds": 3.884
+  },
+  {
+    "query_id": "T-T02",
+    "main_category": "table",
+    "answerable": true,
+    "status": "answered",
+    "pass": true,
+    "answer": "Table 1 reports Norway’s expected years of schooling as **18.6 years**.[p288_table1_switzerland_norway]",
+    "expected_answer": "18.6 years.",
+    "citations": [
+      {
+        "id": "p288_table1_switzerland_norway",
+        "page": 288,
+        "kind": "table_description",
+        "supported": true,
+        "source_crop": null,
+        "note": ""
+      }
+    ],
+    "gold_evidence": [
+      {
+        "source": "UNDP Human Development Report 2023/24, English edition",
+        "page": 288,
+        "kind": "table",
+        "evidence": "2 Norway 0.966 83.4 18.6",
+        "visual_locator": "Physical PDF page 288; see indexed page crop if applicable"
+      }
+    ],
+    "review_note": "Answer was compared with the cited page/crop and gold evidence; the answer and citation support the requested facts.",
+    "elapsed_seconds": 3.939
+  },
+  {
+    "query_id": "T-T03",
+    "main_category": "table",
+    "answerable": true,
+    "status": "answered",
+    "pass": true,
+    "answer": "Malaysia's HDI rank is 63, and its HDI value is 0.807. [p289_text_00]",
+    "expected_answer": "Rank 63; HDI 0.807.",
+    "citations": [
+      {
+        "id": "p289_text_00",
+        "page": 289,
+        "kind": "page_text",
+        "supported": true,
+        "source_crop": null,
+        "note": ""
+      }
+    ],
+    "gold_evidence": [
+      {
+        "source": "UNDP Human Development Report 2023/24, English edition",
+        "page": 289,
+        "kind": "table",
+        "evidence": "63 Malaysia 0.807",
+        "visual_locator": "Physical PDF page 289; see indexed page crop if applicable"
+      }
+    ],
+    "review_note": "Answer was compared with the cited page/crop and gold evidence; the answer and citation support the requested facts.",
+    "elapsed_seconds": 3.21
+  },
+  {
+    "query_id": "T-T04",
+    "main_category": "table",
+    "answerable": true,
+    "status": "answered",
+    "pass": true,
+    "answer": "Thailand’s HDI rank is 66, its HDI value is 0.803, and its life expectancy is 79.7 years. [p289_table1_malaysia_thailand]",
+    "expected_answer": "Rank 66; HDI 0.803; life expectancy 79.7 years.",
+    "citations": [
+      {
+        "id": "p289_table1_malaysia_thailand",
+        "page": 289,
+        "kind": "table_description",
+        "supported": true,
+        "source_crop": null,
+        "note": ""
+      }
+    ],
+    "gold_evidence": [
+      {
+        "source": "UNDP Human Development Report 2023/24, English edition",
+        "page": 289,
+        "kind": "table",
+        "evidence": "66 Thailand 0.803 79.7",
+        "visual_locator": "Physical PDF page 289; see indexed page crop if applicable"
+      }
+    ],
+    "review_note": "Answer was compared with the cited page/crop and gold evidence; the answer and citation support the requested facts.",
+    "elapsed_seconds": 2.928
+  },
+  {
+    "query_id": "T-T05",
+    "main_category": "table",
+    "answerable": true,
+    "status": "answered",
+    "pass": true,
+    "answer": "For summation global public goods (such as climate change mitigation), Table 3.1 recommends using **grants and loans to foster fairness** and having **multilateral institutions monitor and track contributions**. The table notes that these goods tend to be underprovided because of free or easy riding, since contributions are perfectly substitutable. [p091_table31_verified]",
+    "expected_answer": "Grants and loans to foster fairness, plus multilateral institutions to monitor and track contributions.",
+    "citations": [
+      {
+        "id": "p091_table31_verified",
+        "page": 91,
+        "kind": "table_description",
+        "supported": true,
+        "source_crop": null,
+        "note": ""
+      }
+    ],
+    "gold_evidence": [
+      {
+        "source": "UNDP Human Development Report 2023/24, English edition",
+        "page": 91,
+        "kind": "table",
+        "evidence": "Summation ... Grants and loans are needed to foster fairness and multilateral institutions are needed to monitor and track contributions",
+        "visual_locator": "Physical PDF page 91; see indexed page crop if applicable"
+      }
+    ],
+    "review_note": "Answer was compared with the cited page/crop and gold evidence; the answer and citation support the requested facts.",
+    "elapsed_seconds": 3.529
+  },
+  {
+    "query_id": "T-T06",
+    "main_category": "table",
+    "answerable": true,
+    "status": "answered",
+    "pass": true,
+    "answer": "Switzerland’s 2022 HDI was **0.967** and its PHDI was **0.826**. Table 7 shows the difference from HDI as **−14.6%** [p315_table7_switzerland].",
+    "expected_answer": "HDI 0.967; PHDI 0.826; difference −14.6%.",
+    "citations": [
+      {
+        "id": "p315_table7_switzerland",
+        "page": 315,
+        "kind": "table_description",
+        "supported": true,
+        "source_crop": null,
+        "note": ""
+      }
+    ],
+    "gold_evidence": [
+      {
+        "source": "UNDP Human Development Report 2023/24, English edition",
+        "page": 315,
+        "kind": "table",
+        "evidence": "1 Switzerland 0.967 0.826 14.6",
+        "visual_locator": "Physical PDF page 315; see indexed page crop if applicable"
+      }
+    ],
+    "review_note": "Answer was compared with the cited page/crop and gold evidence; the answer and citation support the requested facts.",
+    "elapsed_seconds": 3.101
+  },
+  {
+    "query_id": "T-I01",
+    "main_category": "image_diagram",
+    "answerable": true,
+    "status": "answered",
+    "pass": true,
+    "answer": "The two circular nodes are behavioural change and institutional/policy change. The arrows run both ways, indicating that each mutually influences the other; their interaction is mutually dependent and grounded in public reasoning and procedures of social choice. [p116_fig41_visual]",
+    "expected_answer": "Behavioural change and institutional/policy change influence one another; the interaction is mutually dependent and based on social choice procedures.",
+    "citations": [
+      {
+        "id": "p116_fig41_visual",
+        "page": 116,
+        "kind": "visual_description",
+        "supported": true,
+        "source_crop": null,
+        "note": ""
+      }
+    ],
+    "gold_evidence": [
+      {
+        "source": "UNDP Human Development Report 2023/24, English edition",
+        "page": 116,
+        "kind": "diagram",
+        "evidence": "Behavioural change ... Institutional and policy change ... Interactions are mutually dependent",
+        "visual_locator": "Physical PDF page 116; see indexed page crop if applicable"
+      }
+    ],
+    "review_note": "Answer was compared with the cited page/crop and gold evidence; the answer and citation support the requested facts.",
+    "elapsed_seconds": 3.569
+  },
+  {
+    "query_id": "T-I02",
+    "main_category": "image_diagram",
+    "answerable": true,
+    "status": "answered",
+    "pass": true,
+    "answer": "Mismanaged interdependence produces shocks that lead through two reinforcing channels: welfare losses (human-development losses) and changes in beliefs, including perceived threat and insecurity. These affect individual policy preferences and policy/leader preferences, creating demand for populist narratives and ultimately electoral support for populism. [p067_text_00]",
+    "expected_answer": "Shocks/human-development losses change beliefs and attitudes; this shapes policy preferences and leader preferences/programmes, culminating in electoral support for populism.",
+    "citations": [
+      {
+        "id": "p067_text_00",
+        "page": 67,
+        "kind": "page_text",
+        "supported": true,
+        "source_crop": null,
+        "note": ""
+      }
+    ],
+    "gold_evidence": [
+      {
+        "source": "UNDP Human Development Report 2023/24, English edition",
+        "page": 67,
+        "kind": "diagram",
+        "evidence": "Mismanaged interdependence → shocks ... Human development losses ... Changes in beliefs ... Electoral outcomes: Support for populism",
+        "visual_locator": "Physical PDF page 67; see indexed page crop if applicable"
+      }
+    ],
+    "review_note": "Answer was compared with the cited page/crop and gold evidence; the answer and citation support the requested facts.",
+    "elapsed_seconds": 4.045
+  },
+  {
+    "query_id": "T-I03",
+    "main_category": "image_diagram",
+    "answerable": true,
+    "status": "answered",
+    "pass": true,
+    "answer": "BEIS (UK) and HMCTS (UK). [p124_fig42_uk_agencies]",
+    "expected_answer": "Examples include BEIS (UK) and HMCTS (UK). Other correct examples include FCDO, HMRC, DfT, DfE, Ofgem or BIT, each labeled UK.",
+    "citations": [
+      {
+        "id": "p124_fig42_uk_agencies",
+        "page": 124,
+        "kind": "visual_description",
+        "supported": true,
+        "source_crop": null,
+        "note": ""
+      }
+    ],
+    "gold_evidence": [
+      {
+        "source": "UNDP Human Development Report 2023/24, English edition",
+        "page": 124,
+        "kind": "diagram",
+        "evidence": "Figure 4.2 map labels include BEIS (UK), HMCTS (UK), FCDO (UK), HMRC (UK), DfT (UK), DfE (UK), Ofgem (UK), BIT (UK)",
+        "visual_locator": "Physical PDF page 124; see indexed page crop if applicable"
+      }
+    ],
+    "review_note": "Answer was compared with the cited page/crop and gold evidence; the answer and citation support the requested facts.",
+    "elapsed_seconds": 3.302
+  },
+  {
+    "query_id": "T-I04",
+    "main_category": "image_diagram",
+    "answerable": true,
+    "status": "answered",
+    "pass": true,
+    "answer": "The legend distinguishes institutions inside government, institutions outside government, and multinational organizations.[p124_fig42_visual]",
+    "expected_answer": "Institutions inside government, institutions outside government, and multinational organizations.",
+    "citations": [
+      {
+        "id": "p124_fig42_visual",
+        "page": 124,
+        "kind": "visual_description",
+        "supported": true,
+        "source_crop": null,
+        "note": ""
+      }
+    ],
+    "gold_evidence": [
+      {
+        "source": "UNDP Human Development Report 2023/24, English edition",
+        "page": 124,
+        "kind": "diagram",
+        "evidence": "Institutions inside government Institutions outside government Multinational organizations",
+        "visual_locator": "Physical PDF page 124; see indexed page crop if applicable"
+      }
+    ],
+    "review_note": "Answer was compared with the cited page/crop and gold evidence; the answer and citation support the requested facts.",
+    "elapsed_seconds": 3.174
+  },
+  {
+    "query_id": "T-I05",
+    "main_category": "image_diagram",
+    "answerable": true,
+    "status": "answered",
+    "pass": true,
+    "answer": "It reports 5 in 10—about half of the world’s people—as not in control of their own lives [p023_figure_01].",
+    "expected_answer": "5 in 10, about half.",
+    "citations": [
+      {
+        "id": "p023_figure_01",
+        "page": 23,
+        "kind": "figure_caption",
+        "supported": true,
+        "source_crop": null,
+        "note": ""
+      }
+    ],
+    "gold_evidence": [
+      {
+        "source": "UNDP Human Development Report 2023/24, English edition",
+        "page": 23,
+        "kind": "infographic",
+        "evidence": "Control over own life 5 in 10 or about half the world's people report not being in control of their own lives",
+        "visual_locator": "Physical PDF page 23; see indexed page crop if applicable"
+      }
+    ],
+    "review_note": "Answer was compared with the cited page/crop and gold evidence; the answer and citation support the requested facts.",
+    "elapsed_seconds": 3.096
+  },
+  {
+    "query_id": "T-C01",
+    "main_category": "chart",
+    "answerable": true,
+    "status": "answered",
+    "pass": true,
+    "answer": "The Very high HDI group has the highest median planetary-pressure index (about 0.12). [p071_fig29_visual]",
+    "expected_answer": "Very high HDI; the medians rise from low through very high HDI.",
+    "citations": [
+      {
+        "id": "p071_fig29_visual",
+        "page": 71,
+        "kind": "visual_description",
+        "supported": true,
+        "source_crop": null,
+        "note": ""
+      }
+    ],
+    "gold_evidence": [
+      {
+        "source": "UNDP Human Development Report 2023/24, English edition",
+        "page": 71,
+        "kind": "chart",
+        "evidence": "Figure 2.9 ... higher Human Development Index countries put higher pressures on the planet; central line is the median",
+        "visual_locator": "Physical PDF page 71; see indexed page crop if applicable"
+      }
+    ],
+    "review_note": "Answer was compared with the cited page/crop and gold evidence; the answer and citation support the requested facts.",
+    "elapsed_seconds": 3.568
+  },
+  {
+    "query_id": "T-C02",
+    "main_category": "chart",
+    "answerable": true,
+    "status": "answered",
+    "pass": true,
+    "answer": "It indicates that for a given HDI level, average planetary pressure was lower in 2022 than in 1990—showing progress in human development without the same level of pressure on the planet.[p071_fig210_visual][p071_text_02]",
+    "expected_answer": "In 2022, the average planetary pressure needed to sustain a given HDI level was lower than in 1990.",
+    "citations": [
+      {
+        "id": "p071_fig210_visual",
+        "page": 71,
+        "kind": "visual_description",
+        "supported": true,
+        "source_crop": null,
+        "note": ""
+      },
+      {
+        "id": "p071_text_02",
+        "page": 71,
+        "kind": "page_text",
+        "supported": true,
+        "source_crop": null,
+        "note": ""
+      }
+    ],
+    "gold_evidence": [
+      {
+        "source": "UNDP Human Development Report 2023/24, English edition",
+        "page": 71,
+        "kind": "chart",
+        "evidence": "In 2022 the average planetary pressure required to sustain any given HDI level were lower than in 1990 (figure 2.10)",
+        "visual_locator": "Physical PDF page 71; see indexed page crop if applicable"
+      }
+    ],
+    "review_note": "Answer was compared with the cited page/crop and gold evidence; the answer and citation support the requested facts.",
+    "elapsed_seconds": 4.187
+  },
+  {
+    "query_id": "T-C03",
+    "main_category": "chart",
+    "answerable": true,
+    "status": "answered",
+    "pass": true,
+    "answer": "2017–2022 has the highest share; it is the highest point on the figure’s vertical axis, at about 52%. [p161_fig51_visual]",
+    "expected_answer": "2017–2022, at about 52% on the vertical axis.",
+    "citations": [
+      {
+        "id": "p161_fig51_visual",
+        "page": 161,
+        "kind": "visual_description",
+        "supported": true,
+        "source_crop": null,
+        "note": ""
+      }
+    ],
+    "gold_evidence": [
+      {
+        "source": "UNDP Human Development Report 2023/24, English edition",
+        "page": 161,
+        "kind": "chart",
+        "evidence": "Figure 5.1 ... 2017–2022 ... highest point",
+        "visual_locator": "Physical PDF page 161; see indexed page crop if applicable"
+      }
+    ],
+    "review_note": "Answer was compared with the cited page/crop and gold evidence; the answer and citation support the requested facts.",
+    "elapsed_seconds": 3.305
+  },
+  {
+    "query_id": "T-C04",
+    "main_category": "chart",
+    "answerable": true,
+    "status": "answered",
+    "pass": true,
+    "answer": "After 2020, the observed global HDI trajectory lies below the path projected by extending the 1999–2019 trend. The gap represents forgone HDI progress; if the actual trajectory stays below that trend, some losses may become permanent. [p018_figs12_visual] [p018_text_00]",
+    "expected_answer": "The observed trajectory remains below the pre-2019 trend/projection.",
+    "citations": [
+      {
+        "id": "p018_figs12_visual",
+        "page": 18,
+        "kind": "visual_description",
+        "supported": true,
+        "source_crop": null,
+        "note": ""
+      },
+      {
+        "id": "p018_text_00",
+        "page": 18,
+        "kind": "page_text",
+        "supported": true,
+        "source_crop": null,
+        "note": ""
+      }
+    ],
+    "gold_evidence": [
+      {
+        "source": "UNDP Human Development Report 2023/24, English edition",
+        "page": 18,
+        "kind": "chart",
+        "evidence": "A permanent shift in the Human Development Index trajectory",
+        "visual_locator": "Physical PDF page 18; see indexed page crop if applicable"
+      }
+    ],
+    "review_note": "Answer was compared with the cited page/crop and gold evidence; the answer and citation support the requested facts.",
+    "elapsed_seconds": 3.443
+  },
+  {
+    "query_id": "T-C05",
+    "main_category": "chart",
+    "answerable": true,
+    "status": "answered",
+    "pass": true,
+    "answer": "Figure 1.9 plots the 2022 planetary-pressure index and projected additional extreme-temperature days above the 1986–2005 average by the end of the century across HDI groups. [p052_fig19_visual]",
+    "expected_answer": "2022 planetary-pressure index and additional extreme-temperature days above the 1986–2005 average by end-century.",
+    "citations": [
+      {
+        "id": "p052_fig19_visual",
+        "page": 52,
+        "kind": "visual_description",
+        "supported": true,
+        "source_crop": null,
+        "note": ""
+      }
+    ],
+    "gold_evidence": [
+      {
+        "source": "UNDP Human Development Report 2023/24, English edition",
+        "page": 52,
+        "kind": "chart",
+        "evidence": "Figure 1.9 ... Index of Planetary Pressures value, 2022 ... Number of additional extreme temperature days above ... average by end-century",
+        "visual_locator": "Physical PDF page 52; see indexed page crop if applicable"
+      }
+    ],
+    "review_note": "Answer was compared with the cited page/crop and gold evidence; the answer and citation support the requested facts.",
+    "elapsed_seconds": 2.946
+  },
+  {
+    "query_id": "T-M01",
+    "main_category": "multi_hop",
+    "answerable": true,
+    "status": "answered",
+    "pass": true,
+    "answer": "Switzerland’s life expectancy at birth is 84.3 years, and its planetary-pressures-adjusted HDI (PHDI) is 0.826. [p288_table1_switzerland_norway] [p315_table7_switzerland]",
+    "expected_answer": "Life expectancy at birth was 84.3 years (Table 1); PHDI was 0.826 (Table 7).",
+    "citations": [
+      {
+        "id": "p288_table1_switzerland_norway",
+        "page": 288,
+        "kind": "table_description",
+        "supported": true,
+        "source_crop": null,
+        "note": ""
+      },
+      {
+        "id": "p315_table7_switzerland",
+        "page": 315,
+        "kind": "table_description",
+        "supported": true,
+        "source_crop": null,
+        "note": ""
+      }
+    ],
+    "gold_evidence": [
+      {
+        "source": "UNDP Human Development Report 2023/24, English edition",
+        "page": 288,
+        "kind": "table",
+        "evidence": "1 Switzerland 0.967 84.3",
+        "visual_locator": "Physical PDF page 288; see indexed page crop if applicable"
+      },
+      {
+        "source": "UNDP Human Development Report 2023/24, English edition",
+        "page": 315,
+        "kind": "table",
+        "evidence": "1 Switzerland 0.967 0.826",
+        "visual_locator": "Physical PDF page 315; see indexed page crop if applicable"
+      }
+    ],
+    "review_note": "Answer was compared with the cited page/crop and gold evidence; the answer and citation support the requested facts.",
+    "elapsed_seconds": 3.682
+  },
+  {
+    "query_id": "T-M02",
+    "main_category": "multi_hop",
+    "answerable": true,
+    "status": "abstain",
+    "pass": false,
+    "answer": "The timeline shows Pfizer/BioNTech authorization in 1.3 years versus 10.3 years for the generic vaccine path [p096_fig31_visual]. The supplied excerpts do not include Table 3.1, so they do not establish the provision type assigned to a scientific breakthrough.",
+    "expected_answer": "A scientific breakthrough is a best-shot public good; Covid-19 vaccine authorization was unprecedentedly fast, around one year versus a usual 10–11 years.",
+    "citations": [
+      {
+        "id": "p096_fig31_visual",
+        "page": 96,
+        "kind": "visual_description",
+        "supported": true,
+        "source_crop": null,
+        "note": "Source supports the cited claim; the case can still fail for an incomplete answer."
+      }
+    ],
+    "gold_evidence": [
+      {
+        "source": "UNDP Human Development Report 2023/24, English edition",
+        "page": 91,
+        "kind": "table",
+        "evidence": "Best-shot (for example, scientific breakthrough)",
+        "visual_locator": "Physical PDF page 91; see indexed page crop if applicable"
+      },
+      {
+        "source": "UNDP Human Development Report 2023/24, English edition",
+        "page": 96,
+        "kind": "chart",
+        "evidence": "Figure 3.1 Authorization for Covid-19 vaccines was unprecedentedly fast ... years",
+        "visual_locator": "Physical PDF page 96; see indexed page crop if applicable"
+      }
+    ],
+    "review_note": "The report supports both requested facts, but the agent abstained after finding the vaccine timeline and failing to retrieve Table 3.1; it omitted the best-shot classification. Counted as incorrect, not excluded.",
+    "elapsed_seconds": 3.3
+  },
+  {
+    "query_id": "T-M03",
+    "main_category": "multi_hop",
+    "answerable": true,
+    "status": "answered",
+    "pass": true,
+    "answer": "Figure 2.4 shows two routes from material shocks to populist support: shocks can cause human-development and welfare losses that directly shape policy preferences, and they can alter beliefs and attitudes—such as perceptions of threat, insecurity, or loss of status—which then affect policy and leader preferences. These channels can reinforce one another. Political actors may convert the resulting distress into anti-elite and nativist narratives, framing themselves as protectors of ordinary people against global elites. Thus support can grow even when a populist policy runs against voters’ immediate economic self-interest: identity, fear, and grievance shape how losses are interpreted and politically mobilized. [p067_text_00] [p066_text_01] [p067_text_01] [p067_text_02]",
+    "expected_answer": "Welfare losses can change perceived threats, insecurity, beliefs and identities; political leaders can use those attitudes/narratives to build support for populist programmes.",
+    "citations": [
+      {
+        "id": "p067_text_00",
+        "page": 67,
+        "kind": "page_text",
+        "supported": true,
+        "source_crop": null,
+        "note": ""
+      },
+      {
+        "id": "p066_text_01",
+        "page": 66,
+        "kind": "page_text",
+        "supported": true,
+        "source_crop": null,
+        "note": ""
+      },
+      {
+        "id": "p067_text_01",
+        "page": 67,
+        "kind": "page_text",
+        "supported": true,
+        "source_crop": null,
+        "note": ""
+      },
+      {
+        "id": "p067_text_02",
+        "page": 67,
+        "kind": "page_text",
+        "supported": true,
+        "source_crop": null,
+        "note": ""
+      }
+    ],
+    "gold_evidence": [
+      {
+        "source": "UNDP Human Development Report 2023/24, English edition",
+        "page": 67,
+        "kind": "diagram",
+        "evidence": "Mismanaged interdependence → shocks ... Direct impact on beliefs (perceptions of threat, insecurity)",
+        "visual_locator": "Physical PDF page 67; see indexed page crop if applicable"
+      },
+      {
+        "source": "UNDP Human Development Report 2023/24, English edition",
+        "page": 67,
+        "kind": "text",
+        "evidence": "Fear and feelings of insecurity ... can shift preferences in a populist and nativist direction",
+        "visual_locator": "Physical PDF page 67; see indexed page crop if applicable"
+      }
+    ],
+    "review_note": "Answer was compared with the cited page/crop and gold evidence; the answer and citation support the requested facts.",
+    "elapsed_seconds": 4.923
+  },
+  {
+    "query_id": "T-M04",
+    "main_category": "multi_hop",
+    "answerable": true,
+    "status": "answered",
+    "pass": true,
+    "answer": "The Very high HDI group has the highest median planetary-pressure index. The two per-capita indicators are carbon dioxide emissions and material footprint.[p071_fig29_visual] [p071_text_02]",
+    "expected_answer": "The very-high-HDI group has the highest median. The adjustment uses per-capita carbon dioxide emissions and material footprint.",
+    "citations": [
+      {
+        "id": "p071_fig29_visual",
+        "page": 71,
+        "kind": "visual_description",
+        "supported": true,
+        "source_crop": null,
+        "note": ""
+      },
+      {
+        "id": "p071_text_02",
+        "page": 71,
+        "kind": "page_text",
+        "supported": true,
+        "source_crop": null,
+        "note": ""
+      }
+    ],
+    "gold_evidence": [
+      {
+        "source": "UNDP Human Development Report 2023/24, English edition",
+        "page": 71,
+        "kind": "chart",
+        "evidence": "Figure 2.9 ... median planetary pressure highest in very-high-HDI group",
+        "visual_locator": "Physical PDF page 71; see indexed page crop if applicable"
+      },
+      {
+        "source": "UNDP Human Development Report 2023/24, English edition",
+        "page": 315,
+        "kind": "table",
+        "evidence": "Carbon dioxide emissions per capita; material footprint per capita",
+        "visual_locator": "Physical PDF page 315; see indexed page crop if applicable"
+      }
+    ],
+    "review_note": "Answer was compared with the cited page/crop and gold evidence; the answer and citation support the requested facts.",
+    "elapsed_seconds": 3.031
+  },
+  {
+    "query_id": "T-X01",
+    "main_category": "text",
+    "answerable": true,
+    "status": "answered",
+    "pass": true,
+    "answer": "The report defines the Human Development Index (HDI) as a composite index measuring average achievement in three basic dimensions of human development: a long and healthy life, knowledge, and a decent standard of living. [p296_text_02]",
+    "expected_answer": "A composite index of average achievement in a long and healthy life, knowledge, and a decent standard of living.",
+    "citations": [
+      {
+        "id": "p296_text_02",
+        "page": 296,
+        "kind": "page_text",
+        "supported": true,
+        "source_crop": null,
+        "note": ""
+      }
+    ],
+    "gold_evidence": [
+      {
+        "source": "UNDP Human Development Report 2023/24, English edition",
+        "page": 319,
+        "kind": "text",
+        "evidence": "HDI: A composite index measuring average achievement in three basic dimensions of human development—a long and healthy life, knowledge and a decent standard of living",
+        "visual_locator": "Physical PDF page 319; see indexed page crop if applicable"
+      }
+    ],
+    "review_note": "Answer was compared with the cited page/crop and gold evidence; the answer and citation support the requested facts.",
+    "elapsed_seconds": 2.983
+  },
+  {
+    "query_id": "T-X02",
+    "main_category": "text",
+    "answerable": true,
+    "status": "answered",
+    "pass": true,
+    "answer": "The report says meritocratic views accept inequality as fair when it results from differences in performance, but regard inequality arising from luck as unfair. Libertarian views, by contrast, accept all inequalities as fair. [p130_text_00]",
+    "expected_answer": "Meritocrats accept performance-based inequality but reject luck-based inequality; libertarians accept all inequalities as fair.",
+    "citations": [
+      {
+        "id": "p130_text_00",
+        "page": 130,
+        "kind": "page_text",
+        "supported": true,
+        "source_crop": null,
+        "note": ""
+      }
+    ],
+    "gold_evidence": [
+      {
+        "source": "UNDP Human Development Report 2023/24, English edition",
+        "page": 130,
+        "kind": "text",
+        "evidence": "meritocratic individuals (accept inequalities due to differences in performance as fair but those due to luck unfair)",
+        "visual_locator": "Physical PDF page 130; see indexed page crop if applicable"
+      },
+      {
+        "source": "UNDP Human Development Report 2023/24, English edition",
+        "page": 130,
+        "kind": "text",
+        "evidence": "libertarians (accept all inequalities as fair)",
+        "visual_locator": "Physical PDF page 130; see indexed page crop if applicable"
+      }
+    ],
+    "review_note": "Answer was compared with the cited page/crop and gold evidence; the answer and citation support the requested facts.",
+    "elapsed_seconds": 3.177
+  },
+  {
+    "query_id": "T-X03",
+    "main_category": "text",
+    "answerable": true,
+    "status": "answered",
+    "pass": true,
+    "answer": "Because best-shot goods are determined by the contribution of the country that contributes the most: if one country has the interest and resources to provide what is required, it can provide the good for everyone, so contributions from every country are unnecessary. [p091_text_02] [p091_text_03]",
+    "expected_answer": "The largest contributor's contribution determines provision; a sufficiently capable/incentivized country can provide the good by itself.",
+    "citations": [
+      {
+        "id": "p091_text_02",
+        "page": 91,
+        "kind": "page_text",
+        "supported": true,
+        "source_crop": null,
+        "note": ""
+      },
+      {
+        "id": "p091_text_03",
+        "page": 91,
+        "kind": "page_text",
+        "supported": true,
+        "source_crop": null,
+        "note": ""
+      }
+    ],
+    "gold_evidence": [
+      {
+        "source": "UNDP Human Development Report 2023/24, English edition",
+        "page": 91,
+        "kind": "text",
+        "evidence": "When the contribution of the country that contributes the most determines the level of provision ... Potentially only one country is enough",
+        "visual_locator": "Physical PDF page 91; see indexed page crop if applicable"
+      }
+    ],
+    "review_note": "Answer was compared with the cited page/crop and gold evidence; the answer and citation support the requested facts.",
+    "elapsed_seconds": 3.495
+  },
+  {
+    "query_id": "T-X04",
+    "main_category": "text",
+    "answerable": true,
+    "status": "answered",
+    "pass": true,
+    "answer": "PHDI adjusts the HDI for per-capita carbon dioxide emissions and material footprint, accounting for excessive human pressure on the planet. [p319_text_00]",
+    "expected_answer": "Planetary pressures, including carbon dioxide emissions and material footprint.",
+    "citations": [
+      {
+        "id": "p319_text_00",
+        "page": 319,
+        "kind": "page_text",
+        "supported": true,
+        "source_crop": null,
+        "note": ""
+      }
+    ],
+    "gold_evidence": [
+      {
+        "source": "UNDP Human Development Report 2023/24, English edition",
+        "page": 315,
+        "kind": "table",
+        "evidence": "Planetary pressures-adjusted HDI (PHDI)",
+        "visual_locator": "Physical PDF page 315; see indexed page crop if applicable"
+      },
+      {
+        "source": "UNDP Human Development Report 2023/24, English edition",
+        "page": 315,
+        "kind": "table",
+        "evidence": "Adjustment factor for planetary pressures Carbon dioxide emissions ... Material footprint",
+        "visual_locator": "Physical PDF page 315; see indexed page crop if applicable"
+      }
+    ],
+    "review_note": "Answer was compared with the cited page/crop and gold evidence; the answer and citation support the requested facts.",
+    "elapsed_seconds": 3.406
+  },
+  {
+    "query_id": "T-A01",
+    "main_category": "abstention",
+    "answerable": false,
+    "status": "abstain",
+    "pass": true,
+    "answer": "The supplied excerpts do not provide Vietnam’s GDP growth rate in 2025.",
+    "expected_answer": "Abstain: the report provides no 2025 Vietnam GDP growth rate.",
+    "citations": [],
+    "gold_evidence": [],
+    "review_note": "The agent abstained without an unsupported factual claim; the absence label was checked against the full source.",
+    "elapsed_seconds": 2.881
+  },
+  {
+    "query_id": "T-A02",
+    "main_category": "abstention",
+    "answerable": false,
+    "status": "abstain",
+    "pass": true,
+    "answer": "The supplied excerpts do not provide the amount of Amazon rainforest deforested in calendar year 2024.",
+    "expected_answer": "Abstain: this report does not state a 2024 Amazon deforestation area.",
+    "citations": [],
+    "gold_evidence": [],
+    "review_note": "The agent abstained without an unsupported factual claim; the absence label was checked against the full source.",
+    "elapsed_seconds": 5.153
+  },
+  {
+    "query_id": "T-A03",
+    "main_category": "abstention",
+    "answerable": false,
+    "status": "abstain",
+    "pass": true,
+    "answer": "The retrieved report excerpts do not provide voter turnout for Indonesia’s 2024 presidential election.",
+    "expected_answer": "Abstain: this election turnout is not reported.",
+    "citations": [],
+    "gold_evidence": [],
+    "review_note": "The agent abstained without an unsupported factual claim; the absence label was checked against the full source.",
+    "elapsed_seconds": 2.923
+  },
+  {
+    "query_id": "T-A04",
+    "main_category": "abstention",
+    "answerable": false,
+    "status": "abstain",
+    "pass": true,
+    "answer": "The supplied excerpts do not provide Ho Chi Minh City’s 2024 population, so I can’t determine the figure from this report.",
+    "expected_answer": "Abstain: the report does not give the city's 2024 population.",
+    "citations": [],
+    "gold_evidence": [],
+    "review_note": "The agent abstained without an unsupported factual claim; the absence label was checked against the full source.",
+    "elapsed_seconds": 5.71
+  },
+  {
+    "query_id": "T-A05",
+    "main_category": "abstention",
+    "answerable": false,
+    "status": "abstain",
+    "pass": true,
+    "answer": "The supplied excerpts do not provide Argentina’s 2024 annual inflation rate.",
+    "expected_answer": "Abstain: the report does not report Argentina's 2024 annual inflation.",
+    "citations": [],
+    "gold_evidence": [],
+    "review_note": "The agent abstained without an unsupported factual claim; the absence label was checked against the full source.",
+    "elapsed_seconds": 4.499
+  },
+  {
+    "query_id": "T-A06",
+    "main_category": "abstention",
+    "answerable": false,
+    "status": "abstain",
+    "pass": true,
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "expected_answer": "Abstain: the report contains no 2025 country growth ranking.",
+    "citations": [],
+    "gold_evidence": [],
+    "review_note": "The agent abstained without an unsupported factual claim; the absence label was checked against the full source.",
+    "elapsed_seconds": 3.679
+  }
+]
